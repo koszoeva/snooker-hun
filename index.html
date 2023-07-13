@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.20">
+<title>A SNOOKER SZABÁLYAI</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+script{display:none!important}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+a{background:transparent}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Besley","Inconsolata",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+body{-webkit-font-smoothing:antialiased}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.center{margin-left:auto;margin-right:auto}
+.spread{width:100%}
+p.lead,.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{font-size:1.21875em;line-height:1.6}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#FF001A;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:none}
+p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Cabin",sans-serif;font-weight:300;font-style:normal;color:#FF001A;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #ddddd8;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Inconsolata",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.no-bullet{list-style:none}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
+abbr{text-transform:none}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
+blockquote cite:before{content:"\2014 \0020"}
+blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media only screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table thead,table tfoot{background:#f7f8f7;font-weight:bold}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+body{tab-size:4}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.clearfix:before,.clearfix:after,.float-group:before,.float-group:after{content:" ";display:table}
+.clearfix:after,.float-group:after{clear:both}
+*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Inconsolata",monospace;font-weight:400;text-rendering:optimizeSpeed}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Inconsolata",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menu{color:rgba(0,0,0,.8)}
+b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
+b.button:before{content:"[";padding:0 3px 0 2px}
+b.button:after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header:before,#header:after,#content:before,#content:after,#footnotes:before,#footnotes:after,#footer:before,#footer:after{content:" ";display:table}
+#header:after,#content:after,#footnotes:after,#footer:after{clear:both}
+#content{margin-top:1.25em}
+#content:before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #ddddd8;padding-bottom:8px}
+#header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span:before{content:"\00a0\2013\00a0"}
+#header .details br+span.author:before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark:before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber:after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #ddddd8;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #efefed;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Cabin",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#FF001A;font-size:1.2em}
+@media only screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background-color:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #efefed;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #efefed;left:auto;right:0}}
+@media only screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:100%;background-color:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+.sect1{padding-bottom:.625em}
+@media only screen and (min-width:768px){.sect1{padding-bottom:1.25em}}
+.sect1+.sect1{border-top:1px solid #efefed}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor:before,h2>a.anchor:before,h3>a.anchor:before,#toctitle>a.anchor:before,.sidebarblock>.content>.title>a.anchor:before,h4>a.anchor:before,h5>a.anchor:before,h6>a.anchor:before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#FF001A;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Besley","Inconsolata",serif;font-size:1rem;font-style:italic}
+table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
+.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{color:rgba(0,0,0,.85)}
+table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Besley","Cabin",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#FF001A;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock pre:not(.highlight),.listingblock pre[class="highlight"],.listingblock pre[class^="highlight "],.listingblock pre.CodeRay,.listingblock pre.prettyprint{background:#f7f7f8}
+.sidebarblock .literalblock pre,.sidebarblock .listingblock pre:not(.highlight),.sidebarblock .listingblock pre[class="highlight"],.sidebarblock .listingblock pre[class^="highlight "],.sidebarblock .listingblock pre.CodeRay,.sidebarblock .listingblock pre.prettyprint{background:#f2f1f1}
+.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;padding:1em;font-size:.8125em}
+.literalblock pre.nowrap,.literalblock pre[class].nowrap,.listingblock pre.nowrap,.listingblock pre[class].nowrap{overflow-x:auto;white-space:pre;word-wrap:normal}
+@media only screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}
+@media only screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}
+.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]:before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:#999}
+.listingblock:hover code[data-lang]:before{display:block}
+.listingblock.terminal pre .command:before{content:attr(data-prompt);padding-right:.5em;color:#999}
+.listingblock.terminal pre .command:not([data-prompt]):before{content:"$"}
+table.pyhltable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0;line-height:1.45}
+table.pyhltable td.code{padding-left:.75em;padding-right:0}
+pre.pygments .lineno,table.pyhltable td:not(.code){color:#999;padding-left:0;padding-right:.5em;border-right:1px solid #ddddd8}
+pre.pygments .lineno{display:inline-block;margin-right:.25em}
+table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock blockquote p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote:before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#FF001A;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.5em;margin-right:.5ex;text-align:right}
+.quoteblock .quoteblock{margin-left:0;margin-right:0;padding:.5em 0;border-left:3px solid rgba(0,0,0,.6)}
+.quoteblock .quoteblock blockquote{padding:0 0 0 .75em}
+.quoteblock .quoteblock blockquote:before{display:none}
+.verseblock{margin:0 1em 1.25em 1em}
+.verseblock pre{font-family:"Cabin","Besley",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract{margin:0 0 1.25em 0;display:block}
+.quoteblock.abstract blockquote,.quoteblock.abstract blockquote p{text-align:left;word-spacing:0}
+.quoteblock.abstract blockquote:before,.quoteblock.abstract blockquote p:first-of-type:before{display:none}
+table.tableblock{max-width:100%;border-collapse:separate}
+table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
+table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
+table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
+table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
+table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
+table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
+table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
+table.frame-all{border-width:1px}
+table.frame-sides{border-width:0 1px}
+table.frame-topbot{border-width:1px 0}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+td>div.verse{white-space:pre}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
+ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
+ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
+ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
+ul.inline>li>*{display:block}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
+.colist>table tr>td:last-of-type{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
+.imageblock.right,.imageblock[style*="float: right"]{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em 0;border-width:1px 0 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;text-indent:-1.05em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background-color:#00fafa}
+.black{color:#000}
+.black-background{background-color:#000}
+.blue{color:#0000bf}
+.blue-background{background-color:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background-color:#fa00fa}
+.gray{color:#606060}
+.gray-background{background-color:#7d7d7d}
+.green{color:#006000}
+.green-background{background-color:#007d00}
+.lime{color:#00bf00}
+.lime-background{background-color:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background-color:#7d0000}
+.navy{color:#000060}
+.navy-background{background-color:#00007d}
+.olive{color:#606000}
+.olive-background{background-color:#7d7d00}
+.purple{color:#600060}
+.purple-background{background-color:#7d007d}
+.red{color:#bf0000}
+.red-background{background-color:#fa0000}
+.silver{color:#909090}
+.silver-background{background-color:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background-color:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background-color:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background-color:#fafa00}
+span.icon>.fa{cursor:default}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning:before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution:before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important:before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background-color:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Cabin","Besley",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]:after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background-color:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@media print{@page{margin:1.25cm .75cm}
+*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^=";http:"]:not(.bare):after,a[href^="https:"]:not(.bare):after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]:after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #ddddd8!important;padding-bottom:0!important}
+.sect1{padding-bottom:0!important}
+.sect1+.sect1{border:0!important}
+#header>h1:first-child{margin-top:1.25rem}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em 0}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span:before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]:before{display:block}
+#footer{background:none!important;padding:0 .9375em}
+#footer-text{color:rgba(0,0,0,.6)!important;font-size:.9em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+
+</style>
+</head>
+<body class="book toc2 toc-left">
+<div id="header">
+<div id="toc" class="toc2">
+<div id="toctitle">Tartalomjegyzék</div>
+<ul class="sectlevel0">
+<li><a href="#_a_snooker_szabályai">A SNOOKER SZABÁLYAI</a>
+<ul class="sectlevel1">
+<li><a href="#_fejezet_a_felszerelés">1. FEJEZET: A FELSZERELÉS</a>
+<ul class="sectlevel2">
+<li><a href="#_a_szabványos_asztal">1.1. A szabványos asztal</a></li>
+<li><a href="#_golyók">1.2. Golyók</a></li>
+<li><a href="#_dákó">1.3. Dákó</a></li>
+<li><a href="#_kiegészítők">1.4. Kiegészítők</a></li>
+</ul>
+</li>
+<li><a href="#_fejezet_definíciók">2. FEJEZET: DEFINÍCIÓK</a>
+<ul class="sectlevel2">
+<li><a href="#Frame">2.1. Frame</a></li>
+<li><a href="#_játszma">2.2. Játszma</a></li>
+<li><a href="#_meccs">2.3. Meccs</a></li>
+<li><a href="#_golyók_2">2.4. Golyók</a></li>
+<li><a href="#_támadójátékos_vizit">2.5. Támadójátékos, vizit</a></li>
+<li><a href="#_lökés">2.6. Lökés</a></li>
+<li><a href="#_szabályos_és_szabálytalan_belökés">2.7. Szabályos és szabálytalan belökés</a></li>
+<li><a href="#_break">2.8. Break</a></li>
+<li><a href="#_játék_kézből">2.9. Játék kézből</a></li>
+<li><a href="#_játékban_lévő_golyó">2.10. Játékban lévő golyó</a></li>
+<li><a href="#_választott_célgolyó">2.11. Választott célgolyó</a></li>
+<li><a href="#_megnevezett_célgolyó">2.12. Megnevezett célgolyó</a></li>
+<li><a href="#_free_ball">2.13. Free ball</a></li>
+<li><a href="#_a_játéktér_elhagyása">2.14. A játéktér elhagyása</a></li>
+<li><a href="#_szabálytalanság_hiba_megrovás">2.15. Szabálytalanság, hiba, megrovás</a></li>
+<li><a href="#_hibapont">2.16. Hibapont</a></li>
+<li><a href="#Snookerallas">2.17. Snookerállás</a></li>
+<li><a href="#_foglalt_pont">2.18. Foglalt pont</a></li>
+<li><a href="#_tolás">2.19. Tolás</a></li>
+<li><a href="#_ugratás">2.20. Ugratás</a></li>
+<li><a href="#_miss">2.21. Miss</a></li>
+<li><a href="#_konzultáció">2.22. Konzultáció</a></li>
+</ul>
+</li>
+<li><a href="#_fejezet_a_játék">3. FEJEZET: A JÁTÉK</a>
+<ul class="sectlevel2">
+<li><a href="#_leírás">3.1. Leírás</a></li>
+<li><a href="#_a_golyók_helye">3.2. A golyók helye</a></li>
+<li><a href="#_a_játék_menete">3.3. A játék menete</a></li>
+<li><a href="#vege">3.4. A frame, játszma vagy meccs vége</a></li>
+<li><a href="#_játék_kézből_2">3.5. Játék kézből</a></li>
+<li><a href="#_két_golyó_együttes_találata">3.6. Két golyó együttes találata</a></li>
+<li><a href="#_a_színes_golyók_visszahelyezése">3.7. A színes golyók visszahelyezése</a></li>
+<li><a href="#_touching_ball">3.8. Touching ball</a></li>
+<li><a href="#Zseb-szelen">3.9. Golyó a zseb szélén</a></li>
+<li><a href="#Hibazas">3.10. Hibázás</a></li>
+<li><a href="#Hibapontok">3.11. Hibapontok</a></li>
+<li><a href="#Freeball">3.12. Snookerállás egy hiba után</a></li>
+<li><a href="#Ujrajatszas">3.13. A lökés jogának átadása</a></li>
+<li><a href="#FandM">3.14. Foul and a Miss</a></li>
+<li><a href="#Magic">3.15. A golyók elmozdulása a lökéstől függetlenül</a></li>
+<li><a href="#Szandekos-mozgatas">3.16. A golyók szándékos mozgatása</a></li>
+<li><a href="#Patthelyzet">3.17. Patthelyzet</a></li>
+<li><a href="#_páros_snooker">3.18. Páros snooker</a></li>
+<li><a href="#_hat_pirosas_snooker">3.19. Hat pirosas snooker</a></li>
+<li><a href="#_kisegítő_eszközök_használata">3.20. Kisegítő eszközök használata</a></li>
+<li><a href="#_értelmezés">3.21. Értelmezés</a></li>
+</ul>
+</li>
+<li><a href="#_fejezet_a_játékosok">4. FEJEZET: A Játékosok</a>
+<ul class="sectlevel2">
+<li><a href="#_sportszerűtlen_magatartás">4.1. Sportszerűtlen magatartás</a></li>
+<li><a href="#_megadás">4.2. Megadás</a></li>
+<li><a href="#_időhúzás">4.3. Időhúzás</a></li>
+<li><a href="#_büntetés">4.4. Büntetés</a></li>
+<li><a href="#_a_nem_támadójátékos">4.5. A nem-támadójátékos</a></li>
+<li><a href="#_felelősség_a_pontozásnál">4.6. Felelősség a pontozásnál</a></li>
+<li><a href="#_távollét">4.7. Távollét</a></li>
+</ul>
+</li>
+<li><a href="#_fejezet_tisztviselők">5. FEJEZET: Tisztviselők</a>
+<ul class="sectlevel2">
+<li><a href="#_a_játékvezető">5.1. A játékvezető</a></li>
+<li><a href="#_a_marker">5.2. A marker</a></li>
+<li><a href="#_a_jegyzőkönyvvezető">5.3. A jegyzőkönyvvezető</a></li>
+<li><a href="#_a_tisztségviselők_által_nyújtott_segítség">5.4. A tisztségviselők által nyújtott segítség</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_a_snooker_shoot_out_versenyszabályai">A SNOOKER SHOOT-OUT VERSENYSZABÁLYAI</a>
+<ul class="sectlevel1">
+<li><a href="#_időmérés">Időmérés</a></li>
+<li><a href="#_a_játék_menete_2">A játék menete</a></li>
+<li><a href="#_hibák">Hibák</a></li>
+<li><a href="#_további_szabályok">További szabályok</a></li>
+<li><a href="#_etikett">Etikett</a></li>
+<li><a href="#_a_játékvezető_2">A játékvezető</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="balls.jpg" alt="balls">
+</div>
+</div>
+</div>
+</div>
+<h1 id="_a_snooker_szabályai" class="sect0">A SNOOKER SZABÁLYAI</h1>
+<div class="openblock partintro">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre>A magyar nyelvű fordítást készítette: Kószó Éva
+Lektorálták: Almási Gergő, Bekk László, Kovács László
+
+A magyar nyelvű fordítás alapjául szolgáló eredeti szabályzat:
+Official rules of the games of Snooker and English Billiards
+
+A fordítás a magyar játékosok és nézők számára készült segédanyag, azt a WPBSA nem lektorálta.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fejezet_a_felszerelés">1. FEJEZET: A FELSZERELÉS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A zárójelben szereplő méretek a brit birodalmi mértékegységrendszer szerint megadott értékek metrikusra váltott legjobb közelítői, milliméterben.<br></p>
+</div>
+<div class="sect2">
+<h3 id="_a_szabványos_asztal">1.1. A szabványos asztal</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A játéktér<br>
+Játéktérnek a falak belső felülete közti tér tekintendő, amelynek mérete 11 ft 8½ in × 5 ft 10 in (3569 mm × 1778 mm), mindkét irányban +/-  ½ in (13 mm) hibahatárral.</p>
+</li>
+<li>
+<p>Magasság<br>
+Az asztal magassága a padlószinttől a falak felső felszínéig 2 ft 10 in (864 mm), +/-  ½ in (13 mm) hibahatárral.</p>
+</li>
+<li>
+<p>A felső és az alsó fal<br>
+A játéktér két rövidebb falát nevezzük alsó (vagy Baulk) és felső falnak. Amikor a posztót az asztalra feszítik, a száliránynak az alsó faltól a felső fal felé kell futnia.</p>
+</li>
+<li>
+<p>Baulk-line, Baulk<br>
+Az alsó fallal párhuzamos, tőle 29 in (737 mm) távolságban húzott egyenes vonalat Baulk-line-nak nevezzük. A Baulk-line és az alsó fal által határolt rész a Baulk.</p>
+</li>
+<li>
+<p>A “D”<br>
+A “D” egy félkör által határolt terület a Baulkon belül; a félkör origója a Baulk-line felezőpontja, és a sugara 11½ in (292 mm).</p>
+</li>
+<li>
+<p><a id="Pontok"></a> A színeseknek kijelölt pontok<br>
+Az alsó (Baulk) faltól nézve a “D” jobb oldali sarka a Sárga pont, a bal oldali sarka a Zöld pont.
+Az asztal hosszanti középvonala négy pontot jelöl ki:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a Baulk-line felezőpontja a Barna pont;</p>
+</li>
+<li>
+<p>a középvonal felezőpontja a Kék pont;</p>
+</li>
+<li>
+<p>a Kék pont és a Felső fal felezője közti szakasz felezőpontja a Rózsa pont;</p>
+</li>
+<li>
+<p>a középvonalon a Felső fal felezőjétől 12¾ in (324 mm) távolságra eső pont a Fekete pont.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A zsebek<br>
+A zsebek a játéktér négy sarkán, és a hosszú oldalak felezéspontján helyezkednek el.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_golyók">1.2. Golyók</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A golyókészlet 15 Piros golyóból, és színenként 1-1 darab Sárga, Zöld, Barna, Kék, Rózsa, Fekete, és Fehér golyóból áll.</p>
+</li>
+<li>
+<p>A golyók anyagösszetétele meghatározott, átmérőjük 52,5 mm, +/- 0,05 mm hibahatárral.</p>
+</li>
+<li>
+<p>Lehetőség szerint az összes golyó súlyának egyeznie kell, de a súlykülönbség a legkönnyebb és legnehezebb golyó között nem haladhatja meg a 3 g-ot.</p>
+</li>
+<li>
+<p>A játékosok közti megegyezés vagy a játékvezető döntése alapján lehetőség van egyes golyók, vagy az egész golyókészlet lecserélésére.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_dákó">1.3. Dákó</h3>
+<div class="paragraph">
+<p>A dákó nem lehet rövidebb mint 3 ft (914 mm), kialakítását tekintve pedig nem térhet el a hagyományos, elvékonyodó formától, amelynek a vékonyabb vége a lökésekhez használt dákóbőrrel van felszerelve.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_kiegészítők">1.4. Kiegészítők</h3>
+<div class="paragraph">
+<p>A játékosok számos féle dákótámaszt, hosszú dákót, hosszabbítókat, és toldatokat használhatnak.
+Ezek egy része olyan kiegészítő, ami hagyományosan az asztal tartozéka, de lehet a játékos vagy a játékvezető által biztosított eszköz is.
+Minden toldat, hosszabbító, és egyéb, a célzást vagy a lökést segítő kiegészítőt a használatot megelőzően az illetékes szervekkel engedélyeztetni kell.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fejezet_definíciók">2. FEJEZET: DEFINÍCIÓK</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A jelen fejezetben definiált fogalmakat a szabálykönyvben dőlt betűvel jelöltük.<br></p>
+</div>
+<div class="sect2">
+<h3 id="Frame">2.1. Frame</h3>
+<div class="paragraph">
+<p>A snooker játékban egy <em>frame</em> a kezdéstől (lásd: <a href="#Kezdes">3.3 c) Kezdés</a>) indul; a játékosok felváltva állnak az asztalhoz, amíg az alábbiak szerint a <em>frame</em> véget nem ér:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>ha bármelyik játékos feladja a küzdelmet, és ezt elfogadják;</p>
+</li>
+<li>
+<p>ha a Fekete az egyetlen <em>célgolyó</em> az asztalon, a teljes <em>meccs</em> során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a <em>támadójátékos</em> javára&#8201;&#8212;&#8201;ilyenkor a <em>támadójátékos</em> befejezheti a játékot;</p>
+</li>
+<li>
+<p>ha a Fekete az egyetlen <em>célgolyó</em> az asztalon, a teljes <em>meccs</em> során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot de nem a <em>támadójátékos</em> javára&#8201;&#8212;&#8201;ilyenkor a <em>frame</em>-et a nem <em>támadójátékos</em> javára írják;</p>
+</li>
+<li>
+<p>ha a Fekete az egyetlen <em>célgolyó</em> az asztalon, az első <em>belökés</em> vagy az első <em>hiba</em> esetén (lásd <a href="#vege">3.4 A frame, játszma vagy meccs vége</a>);</p>
+</li>
+<li>
+<p>ha a játékvezető a <em>frame</em>-et az egyik játékosnak ítéli az alábbi szabályok egyike alapján: <a href="#harom-miss">3.14 d)ii Három miss</a>, <a href="#Unfairplay">4.1 a)ii Sportszerűtlen magatartás</a>, <a href="#Sabotage">4.1 a)iv A játék szabotálása</a>, <a href="#Idohuzas">4.3 b) Időhúzás</a>, <a href="#Ismetelt-idohuzas">4.3 c) Ismételt időhúzás</a>.<br></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_játszma">2.2. Játszma</h3>
+<div class="paragraph">
+<p>A <em>játszma</em> egyeztetett vagy meghatározott számú <em>frame</em>-ből áll.<br></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_meccs">2.3. Meccs</h3>
+<div class="paragraph">
+<p>A <em>meccs</em> egyeztetett vagy meghatározott számú játszmából áll.<br></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_golyók_2">2.4. Golyók</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A Fehér golyó a célzógolyó (cue-ball).</p>
+</li>
+<li>
+<p>A 15 Piros és 6 színes golyó a <em>célgolyók</em>.<br></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_támadójátékos_vizit">2.5. Támadójátékos, vizit</h3>
+<div class="paragraph">
+<p>A lökésre következő, vagy épp játékban lévő játékos a <em>támadójátékos</em>. A <em>vizitje</em> addig tart, amíg:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>egy <em>lökés</em> során nem sikerül pontot szereznie;</p>
+</li>
+<li>
+<p><em>hibát</em> vét, majd ezt követően az összes golyó megáll, és a játékvezető megállapítja, hogy a játékos már nincs az asztalnál;</p>
+</li>
+<li>
+<p>a vétlen játékos egy <em>hiba</em> után átadja a lökés jogát az ellenfelének;</p>
+</li>
+<li>
+<p>a <em>támadójátékos</em> befejezi a játékot, mikor a Fekete az egyetlen <em>célgolyó</em> az asztalon, a teljes <em>meccs</em> során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a <em>támadójátékos</em> javára;</p>
+</li>
+<li>
+<p>az utolsó Fekete golyót belökték, és a Fehér golyó megállt.<br></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lökés">2.6. Lökés</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><em>Lökésnek</em> azt nevezzük, amikor a <em>támadójátékos</em> a dákóbőrrel meglöki a Fehér golyót, kivéve, ha ez még vizírozás közben történik (feathering).</p>
+</li>
+<li>
+<p>A Fehér golyót a mozdulat közben csak egyszer lehet meglökni, előre tolni nem lehet. A dákóbőr csak egy pillanatra maradhat érintkezésben a Fehérrel, miután az megmozdult.</p>
+</li>
+<li>
+<p>A <em>lökés</em> akkor szabályos, ha annak során egyetlen szabályt sem sértettek meg;</p>
+</li>
+<li>
+<p>A <em>lökés</em> mindaddig nem tekinthető befejezettnek, amíg:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>minden golyó meg nem állt;</p>
+</li>
+<li>
+<p>minden visszahelyezendő golyó vissza nem került a helyére;</p>
+</li>
+<li>
+<p>a <em>támadójátékos</em> által használt minden segédeszközt el nem távolítottak, vagy a játékvezető megítélése szerint a <em>lökés</em> véget nem ért.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A <em>lökés</em> lehet közvetlen vagy közvetett, vagyis:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>ha a Fehér úgy találja el a <em>célgolyót</em>, hogy előbb nem ér falat, a <em>lökés</em> közvetlen;</p>
+</li>
+<li>
+<p>ha a Fehér úgy találja el a <em>célgolyót</em>, hogy előbb egy vagy több falat ér, a <em>lökés</em> közvetett;<br></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_szabályos_és_szabálytalan_belökés">2.7. Szabályos és szabálytalan belökés</h3>
+<div class="paragraph">
+<p>Szabályos <em>belökésnek</em> (potting) azt nevezzük, ha egy <em>célgolyó</em> úgy kerül a zsebbe valamely más golyóval való találkozás után, hogy eközben egyetlen <em>szabálytalanság</em> sem történt.<br>
+Szabálytalan <em>belökésnek</em> (pocketing) azt nevezzük, ha egy golyó úgy kerül a zsebbe, hogy közben <em>szabálytalanság</em> történt.<br></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_break">2.8. Break</h3>
+<div class="paragraph">
+<p>A <em>break</em> egymást követően végrehajtott <em>belökések</em> sorozata, amelyet egy <em>vizit</em> alkalmával visz véghez a <em>támadójátékos</em> a <em>frame</em>-en belül.<br></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_játék_kézből">2.9. Játék kézből</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A Fehér golyó kézben van a következő esetekben:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>minden <em>frame</em> kezdete előtt;</p>
+</li>
+<li>
+<p>ha <em>belökték</em>;</p>
+</li>
+<li>
+<p>ha <em>elhagyta a játékteret</em>;</p>
+</li>
+<li>
+<p>Visszarakott Fekete játék esetén (lásd <a href="#Blackballgame">3.4 b) Visszarakott Fekete</a>).</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A Fehér golyó mindaddig kézben van, amíg:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a <em>kézből</em> történő lökés szabályosan le nem zajlik,</p>
+</li>
+<li>
+<p>a játékos <em>hibát</em> követ el a Fehér golyóval úgy, hogy elveszti felette a kontrollt.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A játékos <em>kézből</em> jön, amíg a fentiek szerint a Fehér golyó kézben van.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_játékban_lévő_golyó">2.10. Játékban lévő golyó</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A Fehér golyó mindig játékban van, amikor nincs kézben.</p>
+</li>
+<li>
+<p>A <em>célgolyók</em> a <em>frame</em> kezdetétől fogva a szabályos vagy szabálytalan <em>belökésükig</em>, vagy <em>a játéktér elhagyásáig</em> vannak játékban.</p>
+</li>
+<li>
+<p>A színes golyók ismét játékba kerülnek a visszaállításukat követően.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_választott_célgolyó">2.11. Választott célgolyó</h3>
+<div class="paragraph">
+<p>Választott <em>célgolyó</em> bármely golyó lehet, amit szabályos elsőként eltalálni a Fehérrel egy lökés során, vagy amit eltalálni nem lehet, de szabályosan belökni igen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_megnevezett_célgolyó">2.12. Megnevezett célgolyó</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Megnevezett <em>célgolyó</em> az a <em>célgolyó</em>, amit a <em>támadójátékos</em> szóban megnevez, vagy a játékvezető belátása szerint egyértelműen kiválaszt, mint elsőként eltalálandó golyót.</p>
+</li>
+<li>
+<p>Ha a játékvezető erre kéri, a játékos köteles szóban megnevezni a választott <em>célgolyót</em>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_free_ball">2.13. Free ball</h3>
+<div class="paragraph">
+<p>A <em>free ball</em> egy nem-<em>célgolyó</em>, amit a vétlen játékos <em>célgolyónak</em> választ, ha <em>hiba</em> után <em>snookerállásba</em> került (lásd <a href="#Freeball">3.12 Snookerállás hiba után</a>).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_játéktér_elhagyása">2.14. A játéktér elhagyása</h3>
+<div class="paragraph">
+<p>Ha egy golyó a játéktéren kívül, de nem valamelyik zsebben áll meg egy <em>lökést</em> követően, úgy kell tekinteni, hogy <em>elhagyta a játékteret</em>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_szabálytalanság_hiba_megrovás">2.15. Szabálytalanság, hiba, megrovás</h3>
+<div class="paragraph">
+<p><em>Szabálytalanságnak</em> minősül a szabálykönyvben foglaltak megsértése.
+<em>Hibának</em> (foul) az olyan <em>szabálytalanságokat</em> nevezzük, amelyek a vétkes játékos <em>vizitjének</em> végét jelentik.
+<em>Megrovásról</em> (penalty) akkor beszélünk, ha a <em>szabálytalanság</em> miatt nem változik meg, hogy melyik játékos lökhet (a <em>vizit</em> nem ér véget).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hibapont">2.16. Hibapont</h3>
+<div class="paragraph">
+<p>A hibapontokat a <em>szabálytalanságot</em> követően a vétlen játékos javára kell jóváírni.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Snookerallas">2.17. Snookerállás</h3>
+<div class="paragraph">
+<p>A Fehér golyó akkor van <em>snookerállásban</em>, ha a nem-<em>célgolyók</em> állása miatt egyetlen választható <em>célgolyó</em> sem található el
+egyenes vonalú, közvetlen <em>lökéssel</em> anélkül, hogy ezt nem-célgolyó részben vagy egészben akadályozná.
+Ha van legalább egy olyan választható <em>célgolyó</em>, aminek mindkét extrém széle (extreme edges) közvetlen, egyenes vonalú <em>lökéssel</em> eltalálható anélkül,
+hogy ezt nem-célgolyó akadályozná, a Fehér golyó nincs <em>snookerállásban</em>.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A kézben lévő Fehér golyó akkor van <em>snookerállásban</em>, ha nincs a “D” vonalán belül olyan pont, ahol nem lenne <em>snookerállásban</em> a fentebb írtak szerint.</p>
+</li>
+<li>
+<p>Amikor a Fehér golyót több nem-<em>célgolyó</em> is akadályozza abban, hogy eltalálja a <em>célgolyót</em>, akkor közülük:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a Fehérhez legközelebb eső minősül az effektív snookeradó golyónak;</p>
+</li>
+<li>
+<p>a Fehérhez legközelebb eső, de tőle egyenlő távolságra lévő golyók mindegyike effektív snookeradó golyónak minősül.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Amikor Piros a <em>célgolyó</em>, és az asztalon lévő különböző Pirosakat különböző nem-<em>célgolyók</em> takarják, akkor nincs effektív snookeradó golyó.</p>
+</li>
+<li>
+<p>Egy <em>támadójátékos</em> akkor kapott snookert, ha a fentiek alapján a Fehér golyó <em>snookerállásban</em> van.</p>
+</li>
+<li>
+<p>A Fehér golyó nem lehet <em>snookerállásban</em> a falak miatt.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_foglalt_pont">2.18. Foglalt pont</h3>
+<div class="paragraph">
+<p>Egy pont akkor tekintendő <em>foglaltnak</em>, ha a golyót nem lehet rá visszahelyezni anélkül, hogy egy másik golyóhoz hozzáérne.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tolás">2.19. Tolás</h3>
+<div class="paragraph">
+<p><em>Tolásnak</em> minősül, ha a dákóbőr a <em>lökés</em> során érintkezésben marad a Fehér golyóval:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>miután a Fehér golyó előremozdult&#8201;&#8212;&#8201; a dákóbőr csak egy pillanatra, az első érintésnél maradhat érintkezésben a Fehérrel;</p>
+</li>
+<li>
+<p>amikor a Fehér golyó hozzáér egy <em>célgolyóhoz</em>, kivéve amikor a Fehér golyó és a <em>célgolyó</em> csak majdnem tapad&#8201;&#8212;&#8201;ilyenkor egy kellően “vékony” találat nem számít <em>tolásnak</em>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ugratás">2.20. Ugratás</h3>
+<div class="paragraph">
+<p><em>Ugratásnak</em> azt nevezzük, mikor a Fehér golyó áthalad egy <em>célgolyó</em> bármelyik része felett, függetlenül attól, hogy eközben érinti azt vagy nem. Kivételek:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>ha a Fehér golyó először egy <em>célgolyót</em> (kivéve hozzá tapadó <em>célgolyót</em>) talál el, és az ugratás csak ezután történik;</p>
+</li>
+<li>
+<p>ha a Fehér golyó ugratás közben eltalál egy <em>célgolyót</em> (kivéve hozzá tapadó <em>célgolyót</em>), de nem annak túloldalán érkezik vissza a játéktérre;</p>
+</li>
+<li>
+<p>ha a Fehér golyó szabályosan eltalál egy <em>célgolyót</em> (kivéve hozzá tapadó <em>célgolyót</em>), majd egy másik golyóval vagy a fallal történt találkozás után átugorja az elsőként talált <em>célgolyót</em>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_miss">2.21. Miss</h3>
+<div class="paragraph">
+<p><em>Missnek</em> azt nevezzük, mikor:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>a Fehér golyó első találata nem <em>célgolyó</em>;</p>
+</li>
+<li>
+<p>a Fehér golyó első találata nem a megnevezett <em>free ball</em>, vagy szimultán találat esetén nem a megnevezett <em>free ball</em> és a <em>célgolyó</em>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_konzultáció">2.22. Konzultáció</h3>
+<div class="paragraph">
+<p>A <em>konzultáció</em> során a játékosok közreműködhetnek abban, hogy a játékvezető visszaállítsa a korábbi állást egy <em>szabálytalanság</em> (lásd <a href="#ballmarker">3.2 c)ii A golyójelölő elmozdítása</a>, <a href="#koron-kivul">3.3 k) Hiba körön kívül</a>, <a href="#lokes-elott">3.10 i) Hiba a lökés előtt</a>, <a href="#FandM">3.14 Foul and a Miss</a>, <a href="#Magic">3.15 A golyók elmozdulása a lökéstől függetlenül</a>, <a href="#Szandekos-mozgatas">3.16 A golyók szándékos mozgatása</a>) vagy más esemény (lásd <a href="#Zseb-szelen">3.9 Golyó a zseb szélén</a>) után. A <em>konzultáció</em> akkor kezdődik, mikor a visszaállításról döntés születik, és addig tart, míg a játékosok egybehangzóan elfogadják a visszaállított állást, vagy a játékvezető úgy nem dönt.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fejezet_a_játék">3. FEJEZET: A JÁTÉK</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_leírás">3.1. Leírás</h3>
+<div class="paragraph">
+<p>A snookert játszhatja két játékos, vagy kettőnél több játékos csapatokban. Az alábbi pontok részletezik a játék menetét.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a id="Values"></a>A játékosok egy golyókészletet használnak, amely egy Fehér és huszonegy Célgolyóból (15 Piros és 6 színes) áll. A Piros golyók pontértéke 1, a hat színes pontértéke eltérő: a Sárga 2, a Zöld 3, a Barna 4, a Kék 5, a Rózsa 6, és a Fekete 7 pontot ér.</p>
+</li>
+<li>
+<p>A <em>támadójátékos</em> egy <em>vizit</em> során felváltva Piros és színes golyók <em>belökésével</em> gyűjt pontokat, amíg a Pirosak el nem fogynak az asztalról; ekkor a színeseket pontértékük szerinti emelkedő sorrendben kell belökni.</p>
+</li>
+<li>
+<p>A <em>belökött</em> golyók pontértéke a <em>támadójátékos</em> pontjaihoz adódik.</p>
+</li>
+<li>
+<p>A szabálytalanságok után járó hibapontok a vétlen játékos pontjaihoz adódnak.</p>
+</li>
+<li>
+<p>A <em>frame</em>-eken belül általános taktika, hogy a <em>támadójátékos</em> vagy csapat a Fehér golyót egy nem-<em>célgolyó</em> mögé állítja, <em>snookerállásba</em>. Amikor az asztalon lévő golyók pontértéke összességében már nem elég a <em>frame</em> megnyeréséhez, a snookeradás és a hibapontok gyűjtése lesz a legfontosabb.</p>
+</li>
+<li>
+<p>A <em>frame</em> nyertese az a játékos vagy csapat,</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>aki több pontot gyűjtött;</p>
+</li>
+<li>
+<p>akinek a javára a <em>frame</em>-et feladták; vagy</p>
+</li>
+<li>
+<p>akinek a javára ítélték a <em>frame</em>-et az alábbi szabályok egyike értelmében: <a href="#harom-miss">3.14 d)ii Három miss</a>, <a href="#Unfairplay">4.1 a)ii Sportszerűtlen magatartás</a>, <a href="#Sabotage">4.1 a)iv A játék szabotálása</a>, <a href="#Idohuzas">4.3 b) Időhúzás</a>, <a href="#Ismetelt-idohuzas">4.3 c) Ismételt időhúzás</a>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A játék nyertese az a játékos vagy csapat,</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>aki több <em>frame</em>-et nyert, vagy megnyerte a szükséges számú <em>frame</em>-et;</p>
+</li>
+<li>
+<p>aki összességében több pontot szerzett, amennyiben ezt veszik alapul; vagy</p>
+</li>
+<li>
+<p>akinek a javára ítélték a meccset az alábbi szabályok egyike értelmében: <a href="#Minosithetetlen-viselkedes">4.1 a)iii Minősíthetetlen viselkedés</a>, <a href="#Sabotage">4.1 a)iv A játék szabotálása</a>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A <em>meccs</em> nyertese az a játékos vagy csapat,</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>aki több <em>játszmát</em> nyert;</p>
+</li>
+<li>
+<p>aki összességében több pontot szerzett, amennyiben ezt veszik alapul.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_golyók_helye">3.2. A golyók helye</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Minden <em>frame</em> kezdetekor a Fehér golyó kézben van, a <em>célgolyók</em> pedig az alábbi pozíciókban:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>A Piros golyók egyenlő oldalú háromszög alakzatban, szorosan egymás mellett helyezkednek el. A háromszög alapvonala a felső rövid fallal párhuzamos, az erre merőleges oldalfelező fedésben van az asztal hosszanti középvonalával; a háromszög csúcsán álló golyó közvetlenül a Rózsa pontja felett, de azt el nem foglalva helyezkedik el.</p>
+</li>
+<li>
+<p>A hat színes golyót a számukra kijelölt pontokra kell elhelyezni (lásd <a href="#Pontok">1.1 f) A színeseknek kijelölt pontok</a>).</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Amennyiben egy golyót nem a megfelelő helyre állítottak a játék kezdete előtt, a <a href="#too-late">3.7 c) Helyesen visszarakottnak tekintendő golyók</a> szabálya lép életbe, és a <em>frame</em> a <a href="#Kezdes">3.3 c) Kezdés</a> szabály szerint kezdődik meg.</p>
+</li>
+<li>
+<p>Ha a <em>frame</em> elkezdődött, a játékban lévő golyókat csak a játékvezető tisztíthatja meg a <em>támadójátékos</em> indokolt kérésére, és:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>az elmozdítás előtt a golyó pozícióját egy erre alkalmas eszközzel meg kell jelölni;</p>
+</li>
+<li>
+<p><a id="ballmarker"></a>egy golyó tisztítása alatt használt pozíciójelölő eszközt úgy kell tekinteni mint a golyót, aminek a pozícióját jelöli;
+ennek megfelelően az asztalon lévő eszköz értéke a jelölt golyó értékével egyezik meg.
+Amennyiben bármely játékos, a <em>támadójátékost</em> vagy annak csapattársát kivéve hozzáér az eszközhöz vagy a tisztítani kívánt golyóhoz,
+a játékvezető <em>megrovást</em> ítél, és megfelelő számú büntetőpontot ír jóvá a vétlen játékosnak, majd a pozíciójelölő eszközt vagy a tisztítás végett eltávolított
+golyót visszahelyezi akkor is, ha azt eltávolították az asztalról.<br>
+A golyó vagy a pozíciójelölő eszköz visszaállítására ebben az esetben <em>konzultáció</em> kezdődik.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_játék_menete">3.3. A játék menete</h3>
+<div class="paragraph">
+<p>A meccsen elsőként támadó játékost, és így a játékosok sorrendjét pénzfeldobással, vagy egyéb hasonló, közösen választott módon kell kisorsolni. A sorsolást nyerő játékos dönt arról, hogy ki kezdje a mérkőzést.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Miután a játékosok sorrendje eldőlt a fentiek szerint, ez a <em>frame</em>-en belül végig változatlan marad, kivéve, mikor egy <em>hiba</em> után a vétlen fél ismétlést kér.</p>
+</li>
+<li>
+<p>A <em>frame</em>-eket a játékosok felváltva kezdik.</p>
+</li>
+<li>
+<p><a id="Kezdes"></a> A <em>frame</em> akkor kezdődik, mikor az elsőként támadó játékos <em>kézből</em> az asztalra helyezi a Fehér golyót, és azt a dákóbőrrel megérinti:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>szabályos lökéssel;</p>
+</li>
+<li>
+<p>vagy célzás közben.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha <em>frame</em>-et nem a soron következő játékos kezdte:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>amennyiben csak egy lökés volt, és <em>hiba</em> nem történt, a <em>frame</em>-et újrakezdik anélkül, hogy bármelyik játékos büntetést kapna;</p>
+</li>
+<li>
+<p>amennyiben legalább két <em>lökés</em> volt, vagy bármilyen <em>szabálytalanság</em> történt, a <em>frame</em> nem kezdődik újra, és a <em>frame</em>-ek a helyes kezdési sorrendben folytatódnak, vagyis a soron kívül kezdő játékos három egymást követő <em>frame</em>-et fog kezdeni;</p>
+</li>
+<li>
+<p><a id="re-rack"></a>amennyiben patthelyzet alakul ki (lásd <a href="#Patthelyzet">3.17 Patthelyzet</a>) és a <em>frame</em>-et újrakezdik, akkor a helyes kezdési sorrendet vissza kell állítani.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Egy <em>lökés</em> akkor tekinthető szabályosnak, ha a <a href="#Hibapontok">3.11 Hibapontok</a> szabály alatt felsorolt szabálytalanságok egyikét sem követik el.</p>
+</li>
+<li>
+<p>A <em>támadójátékos</em> felelőssége, hogy az ő körében, vagy azt megelőző körökben használt összes segédeszközt vagy egyéb tárgyat eltávolítsák az asztalról.</p>
+</li>
+<li>
+<p>Amíg az összes Piros játékon kívül nem kerül, addig valamennyi Piros, vagy a Pirosként megnevezett <em>free ball</em> számít <em>célgolyónak</em> egy <em>vizit</em> első <em>lökésénél</em>; amennyiben a játékos egy <em>lökés</em> során több Pirosat (beleértve a Pirosként megnevezett <em>free ballt</em> is) is belök, mindegyik után pontot kap.<br></p>
+</li>
+<li>
+<p>A <em>break</em> során:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>ha a játékos belök egy Piros golyót, vagy a Pirosként megnevezett <em>free ballt</em>, akkor a következő <em>lökésnél</em> választhat a színes golyók közül; ha a kiválasztott színest belöki, megkapja az utána járó pontokat, és a színes golyót visszahelyezik az asztalra.</p>
+</li>
+<li>
+<p>a Piros és színes golyókat felváltva kell belökni, amíg minden Piros játékon kívül nem kerül. Amennyiben az utolsó Pirosat követően a játékos belöki a választott színes golyót, úgy azt vissza kell helyezni az asztalra.</p>
+</li>
+<li>
+<p><a id="Vegjatek"></a>Ezt követően a színesek számítanak <em>célgolyónak</em>, a pontértéküknek megfelelő, növekvő sorrendben (lásd <a href="#Values">3.1 a) A golyók pontértéke</a>); a <em>szabályosan belökött</em> színesek ekkor már játékon kívül maradnak és a pontértékben következő színes lesz a <em>célgolyó</em> (kivéve ha közben életbe lép a <a href="#vege">3.4 A frame, játszma vagy meccs vége</a> szabály).</p>
+</li>
+<li>
+<p>Abban az esetben, ha a játékos egy <em>break</em> során azelőtt lök, hogy a játékvezető az előzőleg <em>belökött</em> színest az asztalra visszahelyezte volna, de minden más golyó már nyugalmi helyzetben van, a <em>belökött</em> színes után járó pontokat nem kapja meg, és a <a href="#too-soon-fb">3.11 a)i Túl korai <em>lökés</em> free ball után</a> vagy a <a href="#too-soon">3.11 b)ii Túl korai lökés</a> szabály lép érvénybe.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A Piros golyókat szabályos vagy szabálytalan <em>belökés</em>, vagy a <em>játéktér elhagyása</em> után általában nem kell az asztalra visszatenni, függetlenül attól, hogy ez a vétkes játékosnak kedvez-e; kivételt a következő esetek képeznek: <a href="#ballmarker">3.2 c)ii A golyójelölő elmozdítása</a>, <a href="#koron-kivul">3.3 k) Hiba körön kívül</a>, <a href="#Zseb-szelen">3.9 Golyó a zseb szélén</a>, <a href="#lokes-elott">3.10 i) Hiba a lökés előtt</a>, <a href="#FandM-után">3.14 b) Foul and a Miss után</a>, <a href="#miss-utan-lokes-elott">3.14 e) Hiba miss után, lökés előtt</a>, <a href="#Magic">3.15 A golyók elmozdulása a lökéstől függetlenül</a>, <a href="#Szandekos-mozgatas">3.16 A golyók szándékos mozgatása</a>, <a href="#Hibas-eszkoz">3.20 b) Az asztalhoz biztosított eszközök hibája</a>.</p>
+</li>
+<li>
+<p>Amennyiben a <em>támadójátékosnak</em> nem sikerül belöknie a következő golyót, az asztalt késedelem nélkül el kell hagynia. Ha a játékos <em>hibát</em> követ el mielőtt vagy miközben az asztaltól távozik, a <a href="#Hibapontok">3.11 Hibapontok</a> szakasz szerint büntetést kap. A játékot onnan kell folytatni, ahol a Fehér golyó megáll, vagy <em>kézből</em>, ha játékon kívül kerül, kivéve, ha a <a href="#lokes-elott">3.10 i) Hiba a lökés előtt</a> vagy a <a href="#miss-utan-lokes-elott">3.14 e) Hiba miss után, lökés előtt</a> szabály szerint helyezik vissza.</p>
+</li>
+<li>
+<p><a id="koron-kivul"></a>Ha a nem-<em>támadójátékos</em> a körén kívül az asztalhoz áll és bármilyen <em>szabálytalanságot</em> elkövet, a játékvezető <em>megrovást</em> ítél, az esetlegesen elmozdított golyókat visszaállítják, és a <em>támadójátékos</em> <em>vizitje</em> folytatódik. Az elmozdított golyók visszaállítása <em>konzultáció</em> keretében történik.</p>
+</li>
+<li>
+<p>Ha egy játékos utolsó <em>lökése</em> vagy hibája után a soron következő játékos még azelőtt, hogy minden mozgó golyó megállt volna, vagy a színes golyókat visszahelyeznék az asztalra, ellöki a Fehér golyót vagy <em>szabálytalanságot</em> követ el, úgy büntethető, mint <em>támadójátékos</em>, és a <em>vizitje</em> véget ér.</p>
+</li>
+<li>
+<p>Ha egy golyó a zsebbe esik, de ezt követően visszapattan a játéktérre, nem tekinthető sem szabályosan, sem szabálytalanul <em>belökött</em> golyónak. Ilyen esetben egyik játékos sem büntethető.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="vege">3.4. A frame, játszma vagy meccs vége</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ha az utolsó Fekete az egyetlen <em>célgolyó</em> az asztalon, akkor annak szabályos <em>belökése</em> vagy az első <em>szabálytalanság</em> a <em>frame</em> végét jelenti, kivéve:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>ha ezzel pontegyenlőség alakul ki; és</p>
+</li>
+<li>
+<p>a játék eredménye nem kizárólag a teljes <em>meccs</em> során gyűjtött pontok végösszege alapján dől el.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="Blackballgame"></a> Amikor az a) pontban felsorolt mindkét kitétel teljesül, akkor úgynevezett Visszarakott Fekete játék következik:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a Fekete visszakerül a helyére;</p>
+</li>
+<li>
+<p>a játékosok kisorsolják, hogy ki kezdje a játékot;</p>
+</li>
+<li>
+<p>a kezdő játékos <em>kézből</em> következik;</p>
+</li>
+<li>
+<p>a Fekete szabályos <em>belökése</em>, vagy az első <em>szabálytalanság</em> a <em>frame</em> végét jelenti.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Mikor a játék végeredménye szempontjából kizárólag a teljes <em>meccs</em> során összegyűjtött pontokat veszik figyelembe, és az utolsó <em>frame</em> végén pontegyenlőség alakul ki, úgy a b) pontban leírtak szerint Visszarakott Fekete játék következik.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_játék_kézből_2">3.5. Játék kézből</h3>
+<div class="paragraph">
+<p><em>Kézből</em> történő játék során a Fehér golyót a "D" vonalára vagy azon belülre kell helyezni, és a dákóbőrrel bármelyik irányba ellökni.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A <em>támadójátékos</em> kérésére a játékvezetőnek ki kell jelentenie, hogy a Fehér szabályosan van-e elhelyezve (tehát nincs a "D" vonalán kívül).</p>
+</li>
+<li>
+<p>Ha a Fehér a "D" vonalán kívül érintkezik a dákóbőrrel, akkor az hibás lökési kísérletnek minősül.</p>
+</li>
+<li>
+<p>Ha a Fehér a "D" vonalán kívül, pozícionálás közben érintkezik a dákóbőrrel, és a játékvezető ítélete szerint nem történt lökési kísérlet, úgy a Fehér golyó nincs játékban.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_két_golyó_együttes_találata">3.6. Két golyó együttes találata</h3>
+<div class="paragraph">
+<p>Két golyót egyszerre eltalálni szabálytalan, kivéve, ha mindkét golyó Piros, vagy az egyik a <em>célgolyó</em>, a másik pedig a <em>free ballként</em> megnevezett golyó.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_színes_golyók_visszahelyezése">3.7. A színes golyók visszahelyezése</h3>
+<div class="paragraph">
+<p>Ha egy színes golyót szabályosan vagy szabálytalanul <em>belöknek</em>, vagy ha <em>elhagyja a játékteret</em>, úgy a golyót a következő <em>lökés</em> előtt a játéktérre vissza kell helyezni, ameddig a <a href="#Vegjatek">3.3 h)iii Végjáték a színes golyókkal</a> szabály hatálya alatt utoljára, <em>szabályosan be nem lökik</em>.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A játékos nem büntethető azért, ha a játékvezető hibázik a golyók visszahelyezésekor.</p>
+</li>
+<li>
+<p>Ha egy színest helytelenül visszaállítanak, miközben a <a href="#Vegjatek">3.3 h)iii Végjáték a színes golyókkal</a> szabály szerint már csak a színeseket kell pontérték szerint növekvő sorrendben belökni, úgy a hibásan visszahelyezett színest a <em>hiba</em> észlelésekor azonnal el kell távolítani, hibapont jóváírása nélkül, és a játékot az adott állásból kell folytatni.
+Ha a színest <em>belökték</em>, mielőtt a hibára fény derült volna, a pontokat a következő <em>lökés</em> után, vagy a következő <em>lökést</em> megelőző <em>hiba</em> után kell jóváírni.</p>
+</li>
+<li>
+<p><a id="too-late"></a>Ha egy vagy több golyót szabálytalanul helyeztek vissza, de ezt már legalább egy <em>lökés</em> követte, úgy az összes golyót szabályosan visszahelyezettnek kell tekinteni. Ha egy színes tévesen nem került vissza az asztalra, úgy:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a figyelmetlenség miatt vissza nem helyezett színeseket a hiányuk felfedezésekor kell visszahelyezni, amennyiben a <em>frame</em> még nem ért véget (lásd <a href="#Frame">2.1 Frame</a>); ebben az esetben nincs hibapont, és a játék a kialakult állásból folytatódik.</p>
+</li>
+<li>
+<p>amennyiben a <em>támadójátékos</em> nem várja meg, míg a játékvezető a színes golyót visszahelyezi az asztalra, hibapont kerül jóváírásra.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha színes helyett tévedésből Piros golyót helyeznek vissza az asztalra, akkor ennek észrevételekor:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>amennyiben a helytelenül visszarakott Piros egyértelműen beazonosítható, úgy el kell távolítani az asztalról;</p>
+</li>
+<li>
+<p>amennyiben a helytelenül visszarakott Piros egyértelműen beazonosítható, de idő közben szabályosan vagy szabálytalanul <em>belökték</em>, <em>elhagyta a játékteret</em>; vagy ha a színes golyót idő közben visszahelyezték a c) pontban leírtak szerint; vagy ha a helytelenül visszarakott Piros nem azonosítható be egyértelműen, úgy a játék a kialakult helyzetből folytatódik, tehát a <em>frame</em>-ben összesen 16 Piros kerül játékba. Azokban az esetekben, amikor egy színes golyó hiányzik az asztalról, azt minden esetben vissza kell helyezni, és a játékot az így kialakult állásból kell folytatni.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha egy színest vissza kell tenni az asztalra, de a helye <em>foglalt</em>, akkor a legmagasabb értékű szabad helyre kell visszahelyezni.</p>
+</li>
+<li>
+<p>Ha több színest kell visszahelyezni az asztalra, és mindegyiknek a helye <em>foglalt</em>, akkor a legmagasabb értékű golyó kerül a legmagasabb értékű szabad helyre.</p>
+</li>
+<li>
+<p>Ha az összes színes helye <em>foglalt</em>, akkor a színes golyót a saját helyével hosszanti irányban egy vonalban, a felső rövid fal irányában, a saját pontjához lehető legközelebbre kell visszahelyezni.</p>
+</li>
+<li>
+<p>A Rózsa és a Fekete esetében, ha a golyót nem lehet a saját helye és a felső rövid fal közé visszatenni, úgy a golyót a középvonalban, az alsó rövid fal irányában, a saját pontjához lehető legközelebbre kell visszahelyezni.</p>
+</li>
+<li>
+<p>Egy színes golyót minden esetben úgy kell visszahelyezni, hogy ne érintkezzen másik golyóval.</p>
+</li>
+<li>
+<p>Egy színes golyó akkor került vissza megfelelően a helyére, ha a fenti szabályok szerint helyezték vissza.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_touching_ball">3.8. Touching ball</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ha egy <em>lökést</em> követően a Fehér úgy állapodik meg, hogy hozzáér egy vagy több <em>célgolyóhoz</em>, vagy <em>célgolyóként</em> megnevezhető golyóhoz, a játékvezető touching ballt ítél, és amennyiben kérdéses, jelzi, hogy melyik golyók érnek hozzá a Fehérhez.
+Amennyiben egy Piros <em>belökése</em> után a Fehér úgy állapodik meg, hogy egy vagy több színeshez hozzáér, úgy a játékvezetőnek meg kell kérnie a <em>támadójátékost</em>, hogy egyértelműen nevezze meg a <em>célgolyóként</em> választott színest.</p>
+</li>
+<li>
+<p>Touching ball esetén a <em>támadójátékosnak</em> úgy kell meglöknie a Fehér golyót, hogy a vele érintkező golyó ne mozduljon meg; ha mégis mozdulna, az <em>tolásnak</em> minősül.</p>
+</li>
+<li>
+<p>Ha a játékos a <em>lökés</em> közben egyetlen, a Fehérrel érintkező <em>célgolyót</em> sem mozdít meg, nem kap büntetést, ha a Fehérrel érintkező golyó:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p><em>célgolyó</em>;</p>
+</li>
+<li>
+<p><em>célgolyóként</em> megnevezhető, és a <em>támadójátékos</em> meg is nevezi;</p>
+</li>
+<li>
+<p><em>célgolyóként</em> megnevezhető, de a <em>támadójátékos</em> egy másik golyót nevez meg és azt szabályosan el is találja.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha egy <em>lökést</em> követően a Fehér úgy állapodik meg, hogy hozzáér vagy majdnem hozzáér egy nem-<em>célgolyóhoz</em>, a <em>támadójátékos</em> kérésére a játékvezetőnek egyértelműen meg kell válaszolnia, hogy a golyók érintkeznek-e.</p>
+</li>
+<li>
+<p>Ha egy <em>lökést</em> követően a Fehér úgy állapodik meg, hogy <em>célgolyóhoz</em> és nem-<em>célgolyóhoz</em> is hozzáér, úgy a játékvezető csak a <em>célgolyót</em> nevezi meg touching ballként. A <em>támadójátékos</em> kérésére a játékvezetőnek egyértelműen meg kell válaszolnia, hogy a Fehér érintkezik-e a nem-<em>célgolyóval</em> is.</p>
+</li>
+<li>
+<p>Amennyiben a touching ball <em>lökés</em> közben megmozdul, de a játékvezető meggyőződése, hogy ez nem a <em>lökés</em> miatt történt, úgy a <em>lökés</em> szabályos.</p>
+</li>
+<li>
+<p>Ha a Fehér nem érintkezett a hozzá közel lévő, álló golyóhoz mikor a játékvezető megvizsgálta az állást, később azonban mégis hozzáér, úgy ha még nem történt <em>lökés</em>, a golyókat visszaállítja a korábbi, nem érintkező helyzetbe. A korábbi állapotot akkor is vissza kell állítani, ha a korábban ragadó golyók később nem érintkeznek.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Zseb-szelen">3.9. Golyó a zseb szélén</h3>
+<div class="paragraph">
+<p>Ha egy golyó úgy esik a zsebbe, hogy más golyó nem ért hozzá, akkor:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>ha a golyó nem volt érintett az aktuális <em>lökésben</em>, úgy visszakerül a helyére, és a <em>lökésben</em> szerzett pontok számítanak;</p>
+</li>
+<li>
+<p>ha a golyó a <em>lökésben</em> érintett lehetett volna, akkor:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>ha nem történt <em>szabálytalanság</em> vagy <em>hiba</em> (beleértve egy esetleges olyan <em>hibát</em> is, amiben a leeső golyó szerepelhetett volna), úgy a <em>lökés</em> előtti állapotot vissza kell állítani és a <em>lökést</em> megismételni. A <em>támadójátékos</em> ilyenkor választhat másik <em>lökést</em> is;</p>
+</li>
+<li>
+<p>ha <em>hiba</em> történt, úgy a <em>támadójátékos</em> a <a href="#Hibapontok">3.11 Hibapontok</a> szakasz alapján büntetést kap; minden golyót vissza kell helyezni a <em>lökés</em> előtti állapotba, és a <em>foul</em> után érvényes szabályok szerint folytatni a játékot.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha egy golyó a zseb szájában egy pillanatra megáll, de ezt követően beesik, akkor szabályosan vagy szabálytalanul <em>belököttnek</em> számít, és nem kell visszahelyezni.<br></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Ha egy (vagy több) golyót vissza kell helyezni a zseb szájába, akkor <em>konzultáció</em> kezdődik.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Hibazas">3.10. Hibázás</h3>
+<div class="paragraph">
+<p>Ha egy játékos <em>hibát</em> követ el, azt a játékvezető azonnal bemondja (FOUL).</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ha a <em>támadójátékos</em> még nem végezte el a <em>lökést</em>, úgy a köre véget ér, és a játékvezető bemondja a hibapontot.</p>
+</li>
+<li>
+<p>Ha a <em>támadójátékos</em> már elvégezte a <em>lökést</em>, a játékvezető megvárja, míg a <em>lökés</em> véget ér, és ezután mondja be a hibapontokat.</p>
+</li>
+<li>
+<p>Ha egy <em>hibát</em> a játékvezető nem mond be, és a vétlen játékos sem jelzi hitelt érdemlően a következő <em>lökés</em> előtt, úgy a <em>hibát</em> elengedik.</p>
+</li>
+<li>
+<p>Ha egy színes golyót nem jó helyre helyeznek vissza, akkor ott marad, ahová helyezték, kivéve, ha nem került vissza az asztalra: ekkor a szabályoknak megfelelően vissza kell helyezni.</p>
+</li>
+<li>
+<p>A <em>breakben</em> a <em>hiba</em> előtt szerzett pontok érvényesek, a hibás <em>lökés</em> során szabálytalanul <em>belökött</em> golyók után azonban a <em>támadójátékos</em> nem kap pontot.</p>
+</li>
+<li>
+<p>A következő játékos onnan lök, ahol a Fehér golyó megállt, kivéve, ha lekerült a játéktérről; ilyenkor a játékos <em>kézből</em> jön.</p>
+</li>
+<li>
+<p>Ha egy <em>lökés</em> során a <em>támadójátékos</em> több <em>hibát</em> is elkövet, úgy a legnagyobb pontértékű <em>hiba</em> számít.</p>
+</li>
+<li>
+<p>A hibázó játékos:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a <a href="#Hibapontok">3.11 Hibapontok</a> szakasz szerinti büntetésben részesül; és</p>
+</li>
+<li>
+<p>el kell végeznie a következő <em>lökést</em>, ha a másik játékos erre kéri.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="lokes-elott"></a>Ha a <em>támadójátékos</em> még a <em>lökés</em> előtt bármely golyón <em>hibát</em> követ el (a Fehéret is beleértve), úgy a hibának megfelelő büntetést kapja. A vétlen játékos ezután választhat, hogy folytatja a játékot a <em>hiba</em> után maradt állásból, az ellenfelet kéri erre, vagy újra játszatja az ellenfelet a <em>hiba</em> előtti állásból. Ez utóbbi esetben minden golyót vissza kell állítani a <em>hiba</em> előtti helyére, és a <em>célgolyó</em> a <em>hibát</em> megelőző <em>célgolyó</em> kell, hogy legyen, tehát:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>bármely Piros, ha Piros volt a <em>célgolyó</em>;</p>
+</li>
+<li>
+<p>a soron következő színes, ha már csak színesek vannak az asztalon;</p>
+</li>
+<li>
+<p>a <em>támadójátékos</em> által választott bármelyik színes, ha a <em>célgolyó</em> egy Piros után lökött színes volt, vagy egy Pirosként megnevezett <em>free ball</em>.<br>
+Ha egy (vagy több) golyót vissza kell állítani, akkor <em>konzultáció</em> kezdődik.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha a <em>támadójátékos</em> <em>kézből</em> jön, de egy játékban lévő golyóhoz hozzáér, a játékvezetőnek azonnal be kell mondania a <em>hibát</em>, és a következő játékos jön <em>kézből</em>; ez alól kivétel, ha a <em>hibát</em> a Fehér golyóval követték el úgy, hogy elvesztették felette a kontrollt.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Hibapontok">3.11. Hibapontok</h3>
+<div class="paragraph">
+<p>Az alább felsorolt esetek minősülnek hibának (foul); a <em>hibák</em> alap pontértéke négy, kivéve, ha az a&#8212;&#8203;d szabályok alapján ennél magasabb:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A hibapontok száma a <em>célgolyó</em> értéke, ha a <em>támadójátékos</em>:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p><a id="too-soon-fb"></a>azelőtt végzi el a következő <em>lökést</em>, hogy a játékvezető vissza tudta volna helyezni a <em>free ballként</em> megnevezett színest;</p>
+</li>
+<li>
+<p>a kilökés során a Fehér golyót egynél többször érinti;</p>
+</li>
+<li>
+<p><a id="lab-a-talajon"></a><em>lökés</em> közben egyik lábával sem érinti a földet;</p>
+</li>
+<li>
+<p>páros snookerben soron kívül lök;</p>
+</li>
+<li>
+<p>szabálytalanul jön <em>kézből</em>, a kezdést is beleértve;</p>
+</li>
+<li>
+<p>a Fehérrel egyetlen <em>célgolyót</em> sem talál el;</p>
+</li>
+<li>
+<p>a Fehér golyót <em>belöki</em>;</p>
+</li>
+<li>
+<p>snookert ad a <em>free ballként</em> megnevezett golyó mögött, kivéve a <a href="#Snooker-fb-mogott">3.12 b)ii Snooker a free ball mögött</a> szabályban említett kivételt;</p>
+</li>
+<li>
+<p><em>ugrat</em>;</p>
+</li>
+<li>
+<p>nem szabályos dákóval játszik;</p>
+</li>
+<li>
+<p>egyeztet vagy kommunikál egy partnerével, kivéve <a href="#Paros-snooker">3.18 Páros snookerben, ha nincsenek az asztalnál</a>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A hibapontok száma a <em>célgolyó</em> vagy az érintett golyó pontértéke közül a magasabb, ha a <em>támadójátékos</em>:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>azelőtt hajt végre <em>lökést</em>, hogy minden golyó megállt volna;</p>
+</li>
+<li>
+<p><a id="too-soon"></a>azelőtt végzi el a következő <em>lökést</em>, hogy a játékvezető vissza tudta volna helyezni a <em>belökött</em> színest amely nem volt <em>free ball</em>;</p>
+</li>
+<li>
+<p>egy nem-<em>célgolyót</em> <em>belök</em>,</p>
+</li>
+<li>
+<p>a Fehérrel elsőként egy nem-<em>célgolyót</em> talál el, vagy ha <em>free ball</em> esetén nem a megnevezett golyót találja el, kivéve, ha a <em>free ballként</em> megnevezett golyót és a <em>célgolyót</em> egyszerre találja el;</p>
+</li>
+<li>
+<p><em>tolást</em> követ el;</p>
+</li>
+<li>
+<p>bármely testrészével, ruházatával vagy eszközével hozzáér egy játékban lévő golyóhoz, vagy bármilyen eszközhöz, amely egy játékban lévő golyó helyzetét jelöli;</p>
+</li>
+<li>
+<p>hozzáér a Fehér golyóval bármely játékban lévő golyóhoz, mikor <em>kézből</em> jön;</p>
+</li>
+<li>
+<p>egy játékban lévő golyót bármilyen módon hozzáérint egy tárgyhoz vagy eszközhöz, amit az asztalon hagytak akár az ezt megelőző körökben;</p>
+</li>
+<li>
+<p>azelőtt végzi el a <em>lökést</em>, hogy egy tisztítás alatt lévő golyó az asztalra visszakerült volna;</p>
+</li>
+<li>
+<p>tevékenysége folytán egy golyó <em>elhagyja a játékteret</em>;</p>
+</li>
+<li>
+<p>hat piros golyós snookerben snookert ad a megnevezett golyó mögé;</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A hibapontok száma a <em>célgolyó</em> vagy az érintett két golyó pontértéke közül a magasabb, ha a <em>támadójátékos</em> egyszerre talál el két golyót, kivéve, ha mindkét golyó Piros (és Piros a <em>célgolyó</em>), vagy a <em>célgolyó</em> és a <em>free ballként</em> megnevezett golyó.</p>
+</li>
+<li>
+<p>A <em>hiba</em> értéke hét pont, ha a <em>támadójátékos</em>:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>játékon kívüli golyót használ bármilyen célra;</p>
+</li>
+<li>
+<p>bármilyen eszközzel távolságot vagy közöket mér;</p>
+</li>
+<li>
+<p>Piros, vagy Piros helyett választott <em>free ball</em> <em>belökése</em> után ismét Pirosat lök;</p>
+</li>
+<li>
+<p>nem a Fehér golyót löki meg a <em>frame</em> kezdetét követően;</p>
+</li>
+<li>
+<p>a játékvezető kérése ellenére nem nevezi meg a <em>célgolyót</em>;</p>
+</li>
+<li>
+<p>Piros, vagy Piros helyett választott <em>free ball</em> <em>belökése</em> után, de még a következő színes megnevezése előtt <em>hibát</em> követ el.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Az alább felsorolt esetekben jár <em>megrovás</em> (penalty); a büntetések alap pontértéke négy, kivéve, ha az e&#8212;&#8203;g szabályok ennél magasabbat jelölnek meg.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a" start="5">
+<li>
+<p>A hibapontok száma a <em>célgolyó</em> vagy az érintett golyó pontértéke közül a magasabb, ha egy játékos a körén kívül követ el <em>szabálytalanságot</em> a <a href="#koron-kivul">3.3 k) Hiba körön kívül</a> szakasz szerint.</p>
+</li>
+<li>
+<p>Hét pont, ha egy játékos bármely testrészével, ruházatával vagy eszközével hozzáér egy, a játéktéren lévő golyóhoz a <em>konzultáció</em> alatt.</p>
+</li>
+<li>
+<p>Hét pont, ha a nem-<em>támadójátékos</em>:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>játékon kívüli golyót használ bármilyen célra;</p>
+</li>
+<li>
+<p>bármilyen eszközzel távolságot vagy közöket mér;</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Freeball">3.12. Snookerállás egy hiba után</h3>
+<div class="paragraph">
+<p>Ha egy <em>hibát</em> követően a Fehér golyó <em>snookerállásba</em> kerül (lásd <a href="#Snookerallas">2.17 Snookerállás</a>) a játékvezető <em>free ballt</em> ítél.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ha a vétlen játékos vállalja a következő <em>lökést</em>:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>bármely golyót megnevezheti <em>célgolyóként</em>, de a tényleges <em>célgolyót</em> nem választhatja <em>free ballnak</em>;</p>
+</li>
+<li>
+<p>a <em>free ballként</em> megnevezett golyót úgy kell kezelni és pontozni, mint a helyettesített golyót, de <em>belökés</em> esetén vissza kell helyezni az asztalra.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><em>Hibának</em> számít, ha a Fehér golyó:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>nem a <em>free ballként</em> megnevezett golyót találja el először, kivéve, ha egyszerre találja el azt és a <em>célgolyót</em>;</p>
+</li>
+<li>
+<p><a id="Snooker-fb-mogott"></a>pontszerzés nélküli <em>lökés</em> esetén <em>snookerállásba</em> kerül a <em>free ballként</em> megnevezett golyó mögött, kivéve, ha már csak a Rózsa és a Fekete golyó van az asztalon.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><em>Belökést</em> követően a <em>free ballként</em> megnevezett golyó visszakerül a helyére, és a helyettesített golyó pontértékét írják jóvá.</p>
+</li>
+<li>
+<p>Ha a <em>célgolyót</em> a <em>támadójátékos</em> úgy löki be, hogy először a <em>free ballként</em> megnevezett golyót találta el, vagy egyszerre találta el a <em>free ballt</em> és a <em>célgolyót</em>, úgy a <em>célgolyó</em> pontértékét jóváírják, és a golyó a zsebben marad.</p>
+</li>
+<li>
+<p>Ha a játékos a szabályosan belöki a <em>célgolyót</em> és a <em>free ballként</em>  megnevezett golyót is, úgy csak a <em>célgolyó</em> pontértékét írják jóvá;
+ez alól kivétel, ha a <em>célgolyó</em> a Piros volt, ez esetben minden <em>belökött</em> golyó számít. A <em>free ballként</em>  megnevezett golyó visszakerül a helyére, a <em>belökött</em> <em>célgolyó</em> pedig a zsebben marad.</p>
+</li>
+<li>
+<p>Ha a vétlen játékos átadja a lökés jogát, vagy a <em>hibát</em> megelőző állás visszaállítását választja (<a href="#lokes-elott">3.10 i) Hiba a lökés előtt</a>, <a href="#FandM-után">3.14 b) Foul and a Miss után</a>, <a href="#miss-utan-lokes-elott">3.14 e) Hiba miss után, lökés előtt</a>, <a href="#Szandekos-mozgatas">3.16 A golyók szándékos mozgatása</a>), úgy a megítélt <em>free ball</em> érvényét veszti.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Ujrajatszas">3.13. A lökés jogának átadása</h3>
+<div class="paragraph">
+<p>Ha a vétlen játékos egy <em>hibát</em> vagy <em>Foul</em> and a <em>Misst</em> követően átadta a lökés jogát, vagy a <em>hibát</em> megelőző állás visszaállítását választotta, akkor a döntését nem vonhatja vissza. Ha a hibázó játékosnak átadták a lökés jogát, úgy joga van:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>megváltoztatni a korábbi döntését abban, hogy:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>melyik <em>lökést</em> választja;</p>
+</li>
+<li>
+<p>melyik <em>célgolyót</em> próbálja eltalálni.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>pontokat gyűjteni a <em>belökött</em> golyók után.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="FandM">3.14. Foul and a Miss</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A <em>támadójátékosnak</em> a legjobb tudása szerint igyekeznie kell eltalálni a soron következő golyót, vagy valamely választott színest egy Piros vagy a Pirosként megnevezett <em>free ball</em> belökése után. Ha a játékvezető úgy ítéli meg, hogy a játékos ennek a szabálynak nem tett eleget, úgy <em>Foul</em> and a <em>Misst</em> ítél, kivéve az alábbi eseteket:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p><a id="frameball-utan"></a>ha bármely játékosnak a hibás <em>lökés</em> előtt, vagy annak eredményeként már hibapontokra van szüksége, és a játékvezető úgy ítéli meg, hogy a <em>célgolyó</em> elvétése nem volt szándékos;</p>
+</li>
+<li>
+<p>ha olyan állás keletkezett, ahol lehetetlen <em>célgolyót</em> eltalálni. Ilyen esetben a játékvezető úgy ítélheti meg, hogy a játékos eltalálhatta volna a <em>célgolyót</em>, ha egyéb golyók nem akadályozzák; ennek feltétele, hogy a <em>támadójátékos</em> közvetve vagy közvetlenül, elegendő erővel próbálja meg eltalálni a <em>célgolyót</em>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="FandM-után"></a>A <em>Foul</em> and a <em>Miss</em> bejelentése után a vétlen játékos átadhatja az ellenfelének a <em>lökés</em> jogát, vagy a <em>hiba</em> utáni, vagy az eredeti, <em>hiba</em> előtti állásból. Ez utóbbi esetben minden golyót vissza kell helyezni a <em>hiba</em> előtti helyére, és a <em>célgolyó</em> a <em>hibát</em> megelőző <em>célgolyó</em> kell, hogy legyen, tehát:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>bármely Piros, ha Piros volt a <em>célgolyó</em>;</p>
+</li>
+<li>
+<p>a soron következő színes, ha már csak színesek vannak az asztalon;</p>
+</li>
+<li>
+<p>a <em>támadójátékos</em> által választott bármelyik színes, ha a <em>célgolyó</em> egy Piros után lökött színes volt, vagy egy Pirosként megnevezett <em>free ball</em>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha a <em>támadójátékos</em> úgy véti el a találatot, hogy egyenes vonalban szabadon eltalálható lenne a <em>célgolyó</em>, vagy bármely, <em>célgolyóként</em> megnevezhető golyó bármely része, úgy a játékvezető <em>Foul</em> and a <em>Misst</em> ítél, kivéve, amikor már a <a href="#frameball-utan">3.13 a)i Frameball után</a> szabály érvényes.</p>
+</li>
+<li>
+<p>A c) pontban leírtak szerint <em>Foul</em> and a <em>Misst</em> ítéltek, tehát egyenes vonalban szabadon látható a <em>célgolyó</em>, vagy bármely, <em>célgolyóként</em> megnevezhető golyó középpontja, tehát az úgynevezett "central full ball contact" megvalósítható (Piros golyók esetében ez úgy értendő, hogy van olyan Piros, amelynél a golyó átmérőjét színes golyó nem takarja), vagy a Fehér tapad egy olyan golyóra, amelyet meg lehet nevezni <em>célgolyóként</em>, akkor:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a második <em>hiba</em> után, ha a <em>lökés</em> az eredeti (visszaállított) pozícióból történt, a pontkülönbségtől függetlenül <em>Foul</em> and a <em>Misst</em> kell ítélni;</p>
+</li>
+<li>
+<p><a id="harom-miss"></a> a második <em>hiba</em> után, ha a <em>lökés</em> az eredeti (visszaállított) pozícióból történt, amennyiben a vétlen játékos ismét visszaállítást kér, úgy a játékvezetőnek figyelmeztetnie kell a <em>támadójátékost</em>, hogy ismételt <em>hiba</em> esetén a <em>frame</em>-et az ellenfélnek ítélik; ez a büntetés a figyelmeztetés elmaradása esetében nem érvényesíthető, ilyen esetben, ha a sorozat tovább folytatódik, az első adandó alkalommal meg kell tenni a figyelmeztetést;</p>
+</li>
+<li>
+<p>a d)i és d)ii pontokban leírt <em>Foul</em> and a <em>Miss</em> sorozat megszakad, ha a vétlen fél kérésére a hibázó játékos a <em>hiba</em> után maradt állásból lök.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="miss-utan-lokes-elott"></a>Ha a jelen szabály értelmében minden golyót visszaállítottak, és a <em>támadójátékos</em> a lökésre való felkészülés során bármely golyóval <em>hibát</em> követ el, beleértve a Fehéret is, úgy <em>Miss</em> nem ítélhető. Ebben az esetben jóvá kell írni a megfelelő számú büntetőpontot a vétlen játékos javára, aki választhat, hogy a <em>hiba</em> után maradt pozícióból folytatja a játékot, ellenfelét kéri erre, vagy a <em>hiba</em> előtti állás visszaállítását választja. Ez utóbbi esetben minden golyót vissza kell helyezni a <em>hiba</em> előtti helyére, és a <em>célgolyó</em> a <em>hibát</em> megelőző <em>célgolyó</em> kell, hogy legyen, tehát:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>bármely Piros, ha Piros volt a <em>célgolyó</em>;</p>
+</li>
+<li>
+<p>a soron következő színes, ha már csak színesek vannak az asztalon;</p>
+</li>
+<li>
+<p>a <em>támadójátékos</em> által választott bármelyik színes, ha a <em>célgolyó</em> egy Piros után lökött színes volt, vagy egy Pirosként megnevezett <em>free ball</em>.<br></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Ha az ebben a pontban leírt helyzet a d) szabály szerinti <em>Foul</em> and a <em>Miss</em> sorozat közben történik, akkor a <em>frame</em> elvesztésére vonatkozó figyelmeztetés csak akkor marad érvényben, ha a golyókat a <em>hiba</em> előtti állásba állítják vissza.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a" start="6">
+<li>
+<p>A <em>Foul</em> and a <em>Miss</em> bejelentése után, ha vissza kell állítani a <em>hiba</em> előtti állást, akkor <em>konzultáció</em> kezdődik.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Magic">3.15. A golyók elmozdulása a lökéstől függetlenül</h3>
+<div class="paragraph">
+<p>Ha egy álló vagy mozgó golyó a támadójátékostól függetlenül megmozdul, a játékvezetőnek vissza kell állítania azt az eredeti pozíciójába, vagy abba a pozícióba, ahol feltételezhetően megállt volna. Ilyenkor a <em>támadójátékost</em> nem büntetik.<br>
+A golyók visszaállításakor <em>konzultáció</em> kezdődik.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ez a szabály érvényes abban az esetben, ha a <em>támadójátékos</em> egy rajta kívül álló esemény vagy egy másik személy (aki nem a csapattársa) miatt mozdít meg egy golyót, nem alkalmazható azonban akkor, ha a golyó az asztalfelület hibája miatt mozdul meg, kivéve, ha egy visszaállított golyó mozdul meg még a következő <em>lökés</em> előtt.</p>
+</li>
+<li>
+<p>A játékvezető által megmozdított golyók miatt egyik játékos sem büntethető.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Szandekos-mozgatas">3.16. A golyók szándékos mozgatása</h3>
+<div class="paragraph">
+<p>A Fehér golyó ellökésén, vagy <em>konzultáció</em> közben egy golyó megérintésén kívül minden esetben, amikor a <em>támadójátékos</em>
+egy golyót szándékosan megmozdít vagy felemel, a játékvezető <em>hibát</em> (FOUL) ítél.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Abban az esetben, ha álló golyót mozdítottak el vagy emeltek fel, és a vétlen játékos választhat az alábbi lehetőségek közül:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>folytatja a játékot az adott állásból, vagy ellenfelét kéri erre. Ebben az esetben minden golyó, ami nem a játékterületen állapodott meg, úgy minősül, hogy <em>elhagyta a játékteret</em>.</p>
+</li>
+<li>
+<p>az eredeti állás visszaállítását kéri, és abból az állásból folytatja a játékot, vagy ellenfelét kéri erre. Ez utóbbi esetben a <em>célgolyó</em> megegyezik a <em>szabálytalanság</em> előtti lökés <em>célgolyójával</em>, tehát:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>bármely Piros, ha Piros volt a <em>célgolyó</em>;</p>
+</li>
+<li>
+<p>a soron következő színes, ha már csak színesek vannak az asztalon;</p>
+</li>
+<li>
+<p>a <em>támadójátékos</em> által választott bármelyik színes, ha a <em>célgolyó</em> egy Piros után lökött színes volt, vagy egy Pirosként megnevezett <em>free ball</em>.<br></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Amennyiben ez az eset egy, a <a href="#harom-miss">3.14 d)ii Három miss</a> szabályban leírt FOUL AND A MISS sorozat közben történik, és a vétlen játékos újrajátszást kér, a <em>frame</em> elvesztésére vonatkozó figyelmeztetés érvényben marad.</p>
+</div>
+<div class="olist loweralpha start=2">
+<ol class="loweralpha start=2">
+<li>
+<p>Amikor egy golyó mozgását szándékosan megzavarják, vagy a mozgó golyót felveszik, akkor a játékvezetőnek igyekeznie kell a fair play szabályai szerinti legjobb ítéletet hozni.</p>
+</li>
+<li>
+<p>Ha a <em>támadójátékos</em> a Fehér golyót úgy <em>lökö</em> el, hogy az kimeríti a <a href="#Sportszerutlen-magatartas">4.1 Sportszerűtlen magatartás</a> szabályban részletezetteket, úgy a vétlen játékos az a) és b) pontokban részletezett lehetősgek közül választhat.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Ha egy (vagy több) golyót vissza kell állítani, akkor <em>konzultáció</em> kezdődik.</p>
+</div>
+<div class="paragraph">
+<p>A golyók visszaállításakor <em>konzultáció</em> kezdődik.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Patthelyzet">3.17. Patthelyzet</h3>
+<div class="paragraph">
+<p>Ha a játékvezető úgy ítéli meg, hogy patthelyzet állt elő, vagy fog bekövetkezni, vagy ha ezt mindkét játékos egybehangzóan jelenti ki,  akkor fel kell ajánlania a <em>frame</em> azonnali újrakezdésének lehetőségét. Ezt az eljárást újraállításnak (re-rack) nevezzük.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ha az újraállítás ellen bármely játékosnak kifogása van, a játékvezető tovább engedi a játékot, de megnevez egy időkeretet (jellemzően három <em>lökés</em> játékosonként), amelyen belül a patthelyzetet fel kell oldani.</p>
+</li>
+<li>
+<p>Ha az időkeret lejárta után a helyzet változatlan, a játékvezető törli az adott <em>frame</em>-ben szerzett pontokat, és felállítja az asztalt a <em>frame</em> újrakezdéséhez.</p>
+</li>
+<li>
+<p>A <em>frame</em>-et az a játékos kezdi újra, aki eredetileg is kezdte, vagy akinek kezdenie kellett volna (lásd <a href="#re-rack">3.3 d)iv Az elrontott kezdési sorrend visszaállítása újraállításnál</a>).</p>
+</li>
+<li>
+<p>Ha a patthelyzet a Visszarakott Fekete játék során alakul ki (lásd <a href="#Blackballgame">3.4 b) Visszarakott Fekete</a>), úgy csak a Feketét állítják vissza, és a nyitólökést ugyanaz a játékos végzi el, mint eredetileg.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_páros_snooker">3.18. Páros snooker</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Páros játékban a négy játékos két fős csapatokat alkot, és ezek a párok felváltva kezdik a <em>frame</em>-ket; a játékosok sorrendjét minden <em>frame</em> előtt meg kell határozni és ezt követően fenntartani a <em>frame</em> során.</p>
+</li>
+<li>
+<p>A játékosok megváltoztathatják a sorrendet minden <em>frame</em> megkezdése előtt.</p>
+</li>
+<li>
+<p>Ha <em>hiba</em> után újrajátszásra kerül sor, a <em>hibát</em> elkövető játékosnak kell löknie és a sorrend ezt követően változatlan marad. Ha a <em>hibát</em> a lökés sorrendjének eltévesztésével követték el, a vétkes partnere elveszíti körét, attól függetlenül, hogy újrajátszatják-e, vagy sem.</p>
+</li>
+<li>
+<p>Ha a <em>frame</em> döntetlennel zárul, a <a href="#vege">3.4 A frame, játszma vagy meccs vége</a> szakaszban leírtakat kell alkalmazni.
+Ha visszarakott Fekete szükséges, az első <em>lökést</em> végrehajtó páros eldöntheti, hogy melyikük kezd.
+A <em>frame</em> hátralevő részében a sorrendnek változatlanul kell maradnia.</p>
+</li>
+<li>
+<p><a id="Paros-snooker"></a>A partnerek tanácskozhatnak a <em>frame</em> alatt, de a <em>támadójátékos</em> asztalhoz lépése és a <em>vizit</em> vége között nem.</p>
+</li>
+<li>
+<p>Ha a <em>támadójátékos</em> partnere <em>szabálytalanságot</em> követ el, azt úgy kell tekinteni, mintha a <em>támadójátékos</em> követte volna el.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hat_pirosas_snooker">3.19. Hat pirosas snooker</h3>
+<div class="paragraph">
+<p>Hat pirosas snookerben a snooker szabályai érvényesek az alábbi módosításokkal:</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Egymás után legfeljebb öt alkalommal lehet <em>Foul</em> and a <em>Misst</em> ítélni, amennyiben a vétlen játékos minden alkalommal az eredeti állás visszaállítását kéri.</p>
+</li>
+<li>
+<p>A negyedik <em>Foul</em> and a <em>Miss</em> után a játékvezető figyelmezteti a vétkes játékost, hogy egy esetleges újabb <em>Foul</em> and a <em>Misst</em> követően a vétlen játékos:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>folytathatja onnan, ahol a golyók megállnak;</p>
+</li>
+<li>
+<p>kérheti, hogy a hibázó játékos folytassa onnan, ahol a golyók megállnak;</p>
+</li>
+<li>
+<p>ha egyik játékosnak sincs szüksége hibapontokra a hibával vagy a <em>hiba</em> nélkül, akkor a vétlen játékos a Fehér golyót a játéktéren belül bárhová teheti és onnan folytathatja a játékot. Ebben az esetben a <a href="#Freeball">3.12 Snookerállás hiba után</a> nem alkalmazható.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha egy <em>Foul</em> and a <em>Miss</em> után a vétkes játékos az ellenfél kérésére a <em>hiba</em> utáni állásból folytatja, úgy a korábban számolt <em>Foul</em> and a <em>Miss</em> sorozat megszakad.</p>
+</li>
+<li>
+<p>A <em>támadójátékos</em>, miután egy Pirosat, vagy Pirosként megnevezett <em>free ballt</em> <em>belökött</em>, nem adhat snookert a választott színes golyó mögött (lásd <a href="#Snookerallas">2.17 Snookerállás</a>).</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_kisegítő_eszközök_használata">3.20. Kisegítő eszközök használata</h3>
+<div class="paragraph">
+<p>A <em>támadójátékos</em> felelőssége a használni kívánt eszközök asztalra helyezése és eltávolítása.</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A <em>támadójátékos</em> felelős minden eszközért (ideértve, de nem kizárólag a dákótámaszokat és hosszabbítókat) amelyet az asztalhoz visz, függetlenül attól, hogy az ő tulajdona, vagy kölcsönzött (kivéve, amit a játékvezetőtől kap), és ő kap büntetést az eszközhasználat során elkövetett hibákért.</p>
+</li>
+<li>
+<p><a id="Hibas-eszkoz"></a>Az asztalnál általában található, mások által  (ideértve a játékvezetőt is) biztosított eszközökért nem a <em>támadójátékos</em> a felelős. Ha az eszköz bizonyítottan hibás és emiatt a <em>támadójátékos</em> hozzáér egy golyóhoz vagy golyókhoz, nem ítélhető <em>hiba</em>. Ha szükséges, a játékvezető visszaállítja a golyókat a <a href="#Szandekos-mozgatas">3.16 A golyók szándékos mozgatása</a> szakaszban leírtaknak megfelelően, és ha még <em>breakben</em> van, a <em>támadójátékos</em> folytathatja a játékot büntetés nélkül.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_értelmezés">3.21. Értelmezés</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Fogyatékkal élő játékosok esetében szükség lehet a szabályok egyedi értelmezésére. Különösképpen például:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>A <a href="#lab-a-talajon">3.11 a)iii Legalább az egyik láb a talajon kilökéskor</a> szabály nem alkalmazható kerekesszékes játékos esetén;</p>
+</li>
+<li>
+<p>Színtévesztő játékosok kérhetik a játékvezetőtől, hogy nevezze meg egy golyó színét, vagy mutasson meg egy adott színű golyót.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Játékvezető hiányában az ellenfél vagy a másik csapat segít a szabályok alkalmazásában.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fejezet_a_játékosok">4. FEJEZET: A Játékosok</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_sportszerűtlen_magatartás">4.1. Sportszerűtlen magatartás</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a id="Sportszerutlen-magatartas"></a>Ha egy  játékos:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>durva kifejezéseket használ, sértő mozdulatokat tesz;</p>
+</li>
+<li>
+<p><a id="Unfairplay"></a> a játékvezető megítélése szerint szándékosan vagy folytatólagosan sportszerűtlen;</p>
+</li>
+<li>
+<p><a id="Minosithetetlen-viselkedes"></a>bármilyen más módon kimeríti a sportszerűtlenség fogalmát;</p>
+</li>
+<li>
+<p><a id="Sabotage"></a> nem mutat hajlandóságot a <em>frame</em> folytatására;<br></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>a játékvezetőnek figyelmeztetnie kell a játékost, hogy a sportszerűtlen magatartás folytatása esetén a <em>frame</em>-et a vétlen fél javára fogja ítélni.<br></p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a" start="2">
+<li>
+<p>Ha a játékos az a) pont alapján figyelmeztést kapott, a játékvezető az ismételt sportszerűtlenség esetén az aktuális <em>frame</em>-et, vagy a két <em>frame</em> között elkövetett sportszerűtlenségért a következő <em>frame</em>-et a vétlen játékosnak ítéli, és egyúttal figyelmezteti a játékost, hogy újabb sportszerűtlenség esetén a játszmát a vétlen játékosnak ítéli.</p>
+</li>
+<li>
+<p>Ha a játékos sportszerűtlenség miatt <em>frame</em>-et vesztett a b) vagy d) pont alapján, akkor a további sportszerűtlensége esetén a játékvezető odaítéli a játszmát az ellenfélnek.</p>
+</li>
+<li>
+<p>Ha a játékvezető megítélése szerint a sportszerűtlenség mértéke elegendően súlyos, úgy előzetes figyelmeztetés nélkül is odaítélheti a vétlen félnek a <em>frame</em>-et vagy a játszmát.</p>
+</li>
+<li>
+<p>A játékvezető döntése a <em>frame</em> vagy a <em>játszma</em> odaítéléséről minden esetben végleges, az ellen fellebbezésnek nincs helye.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_megadás">4.2. Megadás</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A felajánlott megadás semmissé válik abban az esetben, ha a másik fél  úgy dönt, folytatja a játékot.</p>
+</li>
+<li>
+<p>A játékos nem adhatja fel a <em>frame</em>-et egy játszmában, vagy a meccset, ha nincs szüksége hibapontra. A szabály megsértése sportszerűtlen magatartásnak minősül és ha a <a href="#Sportszerutlen-magatartas">4.1 Sportszerűtlen magatartás</a> alapján a játékos már kapott figyelmeztetést, úgy a következő <em>frame</em>-et az ellenfélnek ítélik.</p>
+</li>
+<li>
+<p>Ha a győztest az összesített pontszámok alapján határozzák meg, úgy feladott <em>frame</em>, <em>játszma</em>, vagy <em>meccs</em> esetén az ellenfél annyi pontot kap, amennyi az asztalon maradt; a Piros golyókat 8 pontosnak kell számítani, és ha egy színes véletlenül hiányzik az asztalról, úgy is az asztalon lévőnek kell tekinteni.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_időhúzás">4.3. Időhúzás</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ha egy játékos a lökésre való felkészüléssel, vagy a lökés kiválasztásával irreálisan hosszú időt tölt el, a játékvezetőnek figyelmeztetnie kell, hogy a <em>játszma</em> során újabb hasonló esetben a <em>frame</em>-et az ellenfélnek fogja ítélni.</p>
+</li>
+<li>
+<p><a id="Idohuzas"></a> Ha a játékos az a) pont alapján figyelmeztetést kapott, a játékvezető ismételt időhúzás esetén az aktuális <em>frame</em>-et az ellenfélnek ítéli.</p>
+</li>
+<li>
+<p><a id="Ismetelt-idohuzas"></a> Ha a játékos időhúzás miatt <em>frame</em>-et vesztett, a játékvezető ismételt időhúzás esetén, minden további esetben, mindig az aktuális <em>frame</em>-et az ellenfélnek ítéli.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_büntetés">4.4. Büntetés</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ha egy <em>frame</em> a  jelen fejezetben leírtak szerint ér véget, úgy:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a vétkes játékos elveszíti az aktuális <em>frame</em>-et;</p>
+</li>
+<li>
+<p>ha a győztest az összesített pontszámok alapján határozzák meg, úgy feladott <em>frame</em>, <em>játszma</em>, vagy <em>meccs</em> esetén az ellenfél annyi pontot kap, amennyi az asztalon maradt; a Piros golyókat 8 pontosnak kell számítani, és ha egy színes véletlenül hiányzik az asztalról, úgy is az asztalon lévőnek kell tekinteni.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha a <em>játszma</em> a jelen fejezetben leírtak szerint ér véget, úgy:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a vétkes játékos elveszíti az aktuális <em>frame</em>-et;</p>
+</li>
+<li>
+<p>ezen felül elveszíti a <em>játszmából</em> az összes hátralévő <em>frame</em>-et, ha a nyert <em>frame</em>-ek száma a döntő;</p>
+</li>
+<li>
+<p>ezen felül elveszíti a <em>játszmából</em> az összes hátralévő <em>frame</em>-et, amelyek után egyenként 147 pontot írnak jóvá az ellenfélnek, ha az összegyűjtött pontok végösszege a döntő.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_nem_támadójátékos">4.5. A nem-támadójátékos</h3>
+<div class="paragraph">
+<p>Amíg a <em>támadójátékos</em> az asztalnál van, a nem-<em>támadójátékosnak</em> tartózkodnia kell attól, hogy az ellenfél látóterében álljon vagy mozogjon. A nem-<em>támadójátékosnak</em> az asztaltól megfelelő távolságra kell ülnie vagy állnia, és igyekeznie kell mozgással vagy bármilyen egyéb módon nem megzavarni az ellenfelet a koncentrálásban.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_felelősség_a_pontozásnál">4.6. Felelősség a pontozásnál</h3>
+<div class="paragraph">
+<p>Ahogy a játékvezető, úgy a játékosok is felelősek azért, hogy minden pont megfelelően legyen feljegyezve, akár a pontozótáblán, akár a játékvezető által kimondva. Ha valamelyik játékos <em>hibát</em> észlel a pontozásban, felelőssége azt mihamarabb jelezni a játékvezetőnek.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_távollét">4.7. Távollét</h3>
+<div class="paragraph">
+<p>Ha egy nem-<em>támadójátékos</em> elhagyja az asztalt, lehetősége van kijelölni valakit, aki a távollétében az érdekeit képviseli és jelzi a <em>szabálytalanságokat</em>, ha erre szükség van. Az ilyen kinevezésről a játékvezetőt még a távozás előtt tájékoztatni kell.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fejezet_tisztviselők">5. FEJEZET: Tisztviselők</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_a_játékvezető">5.1. A játékvezető</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A játékvezető feladatai és felelőssége:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>a sportszerű játék érdekében jogosult a jelen szabálykönyv által nem elégségesen szabályozott esetekben döntést hozni;</p>
+</li>
+<li>
+<p>gondoskodni a jelen szabályok szerint elfogadott viselkedés betartásáért;</p>
+</li>
+<li>
+<p>közbelépni bármilyen <em>szabálytalanság</em> esetén;</p>
+</li>
+<li>
+<p>a játékos kérésére megmondani egy golyó színét vagy helyzetét,</p>
+</li>
+<li>
+<p>a <em>támadójátékos</em> indokolt kérése esetén megtisztítani bármelyik golyót.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A játékvezetőnek nem szabad:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>bármi olyan kérdésre válaszolni, amire a jelen szabálykönyvben nem hatalmazták fel;</p>
+</li>
+<li>
+<p>figyelmeztetni egy játékost arra, hogy <em>hibát</em> készül elkövetni;</p>
+</li>
+<li>
+<p>tanácsot adni bármilyen helyzetben, ami a játékot befolyásolhatja;</p>
+</li>
+<li>
+<p>pontkülönbséggel kapcsolatos kérdésre válaszolni.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha a játékvezető egy incidenst nem vesz észre, saját belátása szerint kikérheti a marker vagy egyéb tisztviselők, esetleg az eset szempontjából legjobb helyen ülő nézők véleményét, vagy ha van rá lehetőség, visszanézheti az esetről készült videófelvételt a döntése meghozatalához.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_marker">5.2. A marker</h3>
+<div class="paragraph">
+<p>A  marker feladata a pontokat az eredményjelzőn rögzíteni és a játékvezető munkáját segíteni. Ha szükséges, elláthat jegyzőkönyvvezetői feladatokat is.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_jegyzőkönyvvezető">5.3. A jegyzőkönyvvezető</h3>
+<div class="paragraph">
+<p>A jegyzőkönyvvezető feladata lejegyezni minden lökést, a <em>szabálytalanságokat</em>, és a játékosok vagy csapatok által szerzett pontokat, ha erre szükség van. A jegyzőkönyvvezető vezeti a <em>breakek</em> jegyzékét és a kiadott figyelmeztetéseket is.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_tisztségviselők_által_nyújtott_segítség">5.4. A tisztségviselők által nyújtott segítség</h3>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A <em>támadójátékos</em> kérésére a játékvezető vagy a marker elmozdíthat vagy egy adott pozícióban tarthat olyan fényforrásokat, amelyek akadályozzák a <em>támadójátékost</em> a <em>lökés</em> kivitelezésében.</p>
+</li>
+<li>
+<p>A játékvezető vagy a marker számára megengedett, hogy a fogyatékkal élő játékosoknak az állapotuk által indokolt segítséget nyújtsanak.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h1 id="_a_snooker_shoot_out_versenyszabályai" class="sect0">A SNOOKER SHOOT-OUT VERSENYSZABÁLYAI</h1>
+<div class="openblock partintro">
+<div class="content">
+<div class="paragraph">
+<p>Shoot-outban a snooker jelen szabálykönyvben leírt szabályait kell alapul venni a következőkben részletezett módosításokkal.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_időmérés">Időmérés</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Egy <em>meccs</em> játékideje legfeljebb 10 perc lehet. A játékidőt mérő órát a kezdőlökés pillanatában kell elindítani.</p>
+</li>
+<li>
+<p>A <em>lökések</em> idejét mérő órát (shot clock) a játékvezetővel együttműködő tisztviselő, az időmérő indítja el. Ezt az órát pontosan abban a pillanatban kell megállítani, mikor a játékos meglöki a Fehér golyót.</p>
+</li>
+<li>
+<p>A <em>lökéseket</em> a megengedett maximális időkereten belül kell elvégezni, amely:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>15 másodperc a <em>meccs</em> első öt percében;</p>
+</li>
+<li>
+<p>10 másodperc a <em>meccs</em> második öt percében.<br>
+Ha a <em>lökést</em> nem végzik el a megadott időn belül, az <em>hibának</em> minősül.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A lökésidőt mérő órát akkor kell elindítani:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>amikor minden golyó megállt, és minden golyó visszakerült a helyére, amennyiben ez szükséges volt;</p>
+</li>
+<li>
+<p>amikor a játékvezető bejelentette a <em>break</em> során szerzett pontokat;</p>
+</li>
+<li>
+<p>amikor egy <em>szabálytalanság</em> után a játékvezető a Fehér golyót átadta a vétlen játékosnak vagy elhelyezte a játéktéren.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Ha a játékvezetőnek egy döntés meghozatalához időre van szüksége, kérheti a lökésidő vagy a játékidő megállítását, és szól az időmérő kezelőjének, ha az órát újra lehet indítani.</p>
+</li>
+<li>
+<p>Ha a játékvezető nem tud egyértelmű döntést hozni, vagy a mérkőzés markerje szerint az utolsó <em>lökést</em> felül kell vizsgálni, úgy visszanézheti és visszahallgathatja a felvételeket a döntés meghozatalához;
+ilyenkor a játékidőt meg kell állítani. A visszajátszás a marker pultjánál történik, miközben a játékosok az asztalnál várakoznak. A felülvizsgálatot a soron következő <em>lökés</em> elvégzése előtt kell kérni, ha ezt elmulasztják, úgy minden esetlegesen történt incidens semmisnek minősül.</p>
+</li>
+<li>
+<p>Amikor egy játékos megkérdőjelezi a játékvezető döntését, az időmérőt nem állítják meg automatikusan, csak ha a játékvezető szerint ez indokolt.
+A játékvezető bejelenti, ha az idő lejárt, ekkor a lökésidőt mérő órát leállítják. Ezt követően a játékvezető dönt, hogy az órát visszaállítsák vagy újraindítsák.</p>
+</li>
+<li>
+<p>Amikor egy játékos egy golyó tisztítását kéri, az időmérőt nem állítják meg automatikusan, csak ha a játékvezető szerint ez indokolt.
+A játékvezető bejelenti, ha az idő lejárt, ekkor a lökésidőt mérő órát leállítják.
+Ezt követően a játékvezető dönt, hogy az órát visszaállítsák vagy újraindítsák.</p>
+</li>
+<li>
+<p>Ha a lökésidőt vagy a játékidőt mérő óra meghibásodik, a játékvezető döntését kell véglegesnek tekinteni.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_játék_menete_2">A játék menete</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic" start="10">
+<li>
+<p>A játékosok a sorrendről tempólökéssel (lag) döntenek. A tempólökés során a játékosok a <em>baulk vonalról</em> egyszerre ellöknek egy-egy Fehér golyót a felső fal felé úgy, hogy az az alsó fal irányába visszapattanjon. A tempólökést az a játékos nyeri, akinek a Fehér golyója a játékvezető megítélése szerint közelebb áll meg az alsó falhoz; a győztes játékos dönt arról, ki kezdje a meccset. A tempólökés során a Fehér golyók csak a felső és az alsó falat érinthetik; amelyik játékos ezeken kívül bármi mást eltalál, az elveszíti a tempólökést.</p>
+</li>
+<li>
+<p>Ha a Fehér golyót az idő lejárta előtt meglökik, akkor az azzal szerzett összes pont és hibapont számít, akkor is, ha a <em>lökés</em> végéig a lökésidő vagy a játékidő lejár.</p>
+</li>
+<li>
+<p>Patthelyzet esetén a játékosok felelőssége, hogy a helyzetet feloldják. Újraállításra nincs lehetőség.</p>
+</li>
+<li>
+<p>Amikor az utolsó Fekete az egyetlen <em>célgolyó</em> az asztalon, az első <em>belökés</em> vagy az első <em>hiba</em> a <em>meccs</em> végét jelenti, akkor is, ha így pontegyenlőség alakul ki.</p>
+</li>
+<li>
+<p>Pontegyenlőség esetén a <em>meccset</em> az úgynevezett Hirtelen halál játékkal döntik el:
+ekkor a saját helyén álló Kéket kell a "D" vonalán vagy azon belül elhelyezett Fehérrel belökni.
+Az a játékos, aki a <em>meccs</em> elején a tempólökést nyerte, dönthet, hogy ki kezdjen.
+A játékosok felváltva löknek, amíg az egyikük azonos számú próbálkozásból többször löki be a Kéket.
+Csak az számít szabályos belökésnek, ha a Kék közvetlenül esik a zsebbe anélkül, hogy bárhol érintené bármelyik falat a megcélzott zseb ívén kívül, különben a <em>belökés</em> nem érvényes.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hibák">Hibák</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic" start="15">
+<li>
+<p>Bármilyen <em>hibát</em> követően a vétlen játékos <em>kézből</em> jön. A kézben lévő Fehér golyót a játéktéren belül bárhol el lehet helyezni, de a vétkes játékost újrajátszatni nem lehet. A lökésidőt mérő óra akkor indul újra, mikor a játékos átvette a Fehér golyót a játékvezetőtől.</p>
+</li>
+<li>
+<p>Ha egy játékos nem végzi el időben a <em>lökést</em>, az <em>hibának</em>
+számít. A <em>hiba</em> büntetőpont-értéke öt pont, vagy a <em>célgolyó</em> értéke, amennyiben ez a magasabb; a <em>hibát</em> követően a vétlen játékos a játékvezetőtől megkapja a Fehér golyót és <em>kézből</em> jöhet.</p>
+</li>
+<li>
+<p>Minden <em>lökés</em> során legalább egy golyónak falat kell érnie, vagy szabályosan a zsebbe kell esnie. Ha ezek közül egyik sem teljesül, az <em>hibának</em> számít. A <em>hiba</em> büntetőpont-értéke öt pont, vagy a <em>célgolyó</em> értéke, amennyiben ez a magasabb; a <em>hibát</em> követően a vétlen játékos a játékvezetőtől megkapja a Fehér golyót és <em>kézből</em> jöhet.</p>
+</li>
+<li>
+<p>Ha egy <em>hibát</em> követően a vétlen játékos nem áll elég közel a játékvezetőhöz, hogy elvegye a Fehér golyót, úgy a játékvezető a golyót a játéktéren helyezi el. A játékos ezt követően a golyót áthelyezheti a kívánt pozícióba, de a <em>lökést</em> el kell végeznie mielőtt az idő lejár.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_további_szabályok">További szabályok</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic" start="19">
+<li>
+<p>A snooker következő szabályai shoot-outban nem érvényesek: <a href="#Freeball">3.12 Snookerállás hiba után</a>, <a href="#Ujrajatszas">3.13 A lökés jogának átadása</a>, <a href="#FandM">3.14 Foul and a Miss</a>.</p>
+</li>
+<li>
+<p>Amennyiben egy játékost <em>lökés</em> közben külső körülmények zavarnak meg, a játékvezető dönthet úgy, hogy a lökésidőt vagy a játékidőt visszaállítja vagy megállítja. A játékvezető a játék bármely pontján bejelentheti, ha az idő lejárt, és dönthet a lökésidőt mérő óra visszaállításáról vagy megállításáról.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_etikett">Etikett</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic" start="21">
+<li>
+<p>Az időkorlát miatt a nem-<em>támadójátékosok</em> számára megengedett, hogy az asztalhoz a szokásosnál közelebb maradva várakozzanak a következő lökésükre, azonban nem tartózkodhatnak a <em>támadójátékos</em> látóterében.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_játékvezető_2">A játékvezető</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic" start="22">
+<li>
+<p>A játékvezető a végső döntőbíró, és a döntése végleges. A jelen szabálykönyvben nem szabályozott esetekben a játékvezető döntése a mérvadó, és amennyiben alkalmazható, precedensként kell rá tekinteni.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2023-07-13 22:17:32 +0200
+</div>
+</div>
+</body>
+</html>
