@@ -43,7 +43,7 @@ Az alsó (Baulk) faltól nézve a “D” jobb oldali sarka a Sárga pont, a bal
 Az asztal hosszanti középvonala négy pontot jelöl ki:
 [lowerroman]
 .. a Baulk-line felezőpontja a Barna pont;
-.. a középvonal felezőpontja a Kék pont;
+.. az Alsó és Felső fal felezőjére merőleges vonal felezőpontja a Kék pont;
 .. a Kék pont és a Felső fal felezője közti szakasz felezőpontja a Rózsa pont;
 .. a középvonalon a Felső fal felezőjétől 324 mm (12¾ in) távolságra eső pont a Fekete pont.
 . A zsebek +
@@ -68,13 +68,13 @@ Minden toldatot, hosszabbítót, és egyéb, a célzást vagy a lökést segít�
 A jelen fejezetben definiált fogalmakat a szabálykönyvben dőlt betűvel jelöltük. +
 
 === Frame [[Frame, 2.1 Frame]]
-A snooker játékban egy _frame_ a kezdéstől (lásd: <<Kezdes>>) indul; a játékosok felváltva állnak az asztalhoz, amíg a _frame_ véget nem ér az alábbi lehetőségek szerint:
+A snooker játékban egy _frame_ a kezdéstől (lásd: <<Kezdes>>) indul; a játékosok felváltva állnak az asztalhoz, amíg a _frame_ véget nem ér az alábbi lehetőségek egyike szerint:
 [loweralpha]
 . ha bármelyik játékos feladja a küzdelmet, és ezt az ellenfél elfogadja;
-. a _támadójátékos_ megnyeri a _frame_-et, ha a Fekete az egyetlen _célgolyó_ az asztalon, a teljes _meccs_ során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a _támadójátékos_ javára;
-. a nem-_támadójátékos_ javára írják a _frame_-et, ha Fekete az egyetlen _célgolyó_ az asztalon, a teljes _meccs_ során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a nem-_támadójátékos_ javára;
+. a _támadójátékos_ nyeri a _frame_-et, ha a Fekete az egyetlen _célgolyó_ az asztalon, a teljes _meccs_ során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a _támadójátékos_ javára;
+. a nem-_támadójátékos_ nyeri a _frame_-et, ha Fekete az egyetlen _célgolyó_ az asztalon, a teljes _meccs_ során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a nem-_támadójátékos_ javára;
 . amikor az első _belökés_ vagy az első _hiba_ megtörténik, ha a Fekete az egyetlen _célgolyó_ az asztalon (lásd <<vege>>);
-. ha a játékvezető a _frame_-et az egyik játékosnak ítéli az alábbi szabályok egyike alapján: <<harom-miss>>, <<Unfairplay>>, <<Sabotage>>, <<Idohuzas>>, <<Ismetelt-idohuzas>>. +
+. ha a játékvezető a _frame_-et az egyik játékosnak ítéli az alábbi szabályok egyike alapján: <<harom-miss>>, <<Frame-loss-unfairplay>>, <<Game-loss-unfairplay>>, <<Frame-loss-idohuzas>>, <<Repeated-frame-loss-idohuzas>>. +
 
 === Játszma
 A _játszma_ egyeztetett vagy meghatározott számú _frame_-ből áll. +
@@ -88,17 +88,17 @@ A _meccs_ egyeztetett vagy meghatározott számú játszmából áll. +
 . A 15 Piros és 6 színes golyó a _tárgygolyók_. +
 
 === Támadójátékos, vizit
-A lökésre következő, vagy épp játékban lévő játékos a _támadójátékos_. A _vizitje_ addig tart, amíg:
+A lökésre következő, vagy épp játékban lévő játékos a _támadójátékos_. A _támadójátékos_ _vizitje_ addig tart, amíg következő lehetőségek egyike bekövetkezik:
 [loweralpha]
-. egy _lökés_ során nem szerez pontot;
+. egy _lökéssel_ nem szerez pontot;
 . _hibát_ vét, az összes golyó megáll, és a játékvezető megállapítja, hogy a játékos már nincs az asztalnál;
 . vétlen játékosként egy _hiba_ után átadja a lökés jogát;
-. a _támadójátékos_ megnyeri a _frame_-et, ha a Fekete az egyetlen _célgolyó_ az asztalon, a teljes _meccs_ során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a _támadójátékos_ javára;
-. az utolsó Fekete golyót _szabályosan belökték_, és a Fehér golyó megállt. +
+. megnyeri a _frame_-et, ha a Fekete az egyetlen _célgolyó_ az asztalon, a teljes _meccs_ során összesen gyűjtött pontok végösszege nem számít, és a pontkülönbség meghaladja a hét pontot a _támadójátékos_ javára;
+. az utolsó Fekete golyót _szabályosan belökte_, és a Fehér golyó megállt. +
 
 === Lökés
 [loweralpha]
-. _Lökésnek_ azt nevezzük, amikor a _támadójátékos_ a dákóbőrrel meglöki a Fehér golyót, kivéve, ha ez még vizírozás közben történik (amit _feathering_nek nevezünk).
+. _Lökésnek_ azt nevezzük, amikor a _támadójátékos_ a dákóbőrrel meglöki a Fehér golyót, kivéve, ha ez még vizírozás közben történik (_feathering_).
 . A Fehér golyót a mozdulat közben csak egyszer lehet meglökni, előre tolni nem lehet. A dákóbőr csak egy pillanatra maradhat érintkezésben a Fehér golyóval, miután az megmozdult.
 . A _lökés_ akkor szabályos, ha annak során egyetlen szabályt sem sértettek meg;
 . A _lökés_ akkor tekinthető befejezettnek, amikor:
@@ -108,12 +108,12 @@ A lökésre következő, vagy épp játékban lévő játékos a _támadójáté
 .. a _támadójátékos_ által használt minden segédeszközt eltávolítottak, vagy a játékvezető megítélése szerint a _lökés_ véget ért.
 . A _lökés_ lehet közvetlen vagy közvetett, vagyis:
 [lowerroman]
-.. ha a Fehér golyó úgy találja el a _célgolyót_, hogy előbb nem ér falat, a _lökés_ közvetlen;
-.. ha a Fehér golyó úgy találja el a _célgolyót_, hogy előbb egy vagy több falat ér, a _lökés_ közvetett; +
+.. ha a Fehér golyó úgy találja el a _célgolyót_, hogy előbb nem ér falat, a _lökés_ _közvetlen_;
+.. ha a Fehér golyó úgy találja el a _célgolyót_, hogy előbb egy vagy több falat ér, a _lökés_ _közvetett_; +
 
 === Szabályos és szabálytalan belökés
-_Szabályos belökésnek_ (potting) azt nevezzük, ha egy _célgolyó_ úgy kerül a zsebbe valamely más golyóval való találkozás után, hogy eközben egyetlen _szabálytalanság_ sem történt. +
-_Szabálytalan belökésnek_ (pocketing) azt nevezzük, ha egy golyó úgy kerül a zsebbe, hogy közben _szabálytalanság_ történt. +
+_Szabályos belökésnek_ (potting) azt nevezzük, ha egy _célgolyó_ úgy kerül a zsebbe valamely más golyóval való találkozás után, hogy eközben egyetlen _szabálytalanság_ sem történik. +
+_Szabálytalan belökésnek_ (pocketing) azt nevezzük, ha egy golyó úgy kerül a zsebbe, hogy közben _szabálytalanság_ történik. +
 
 === Break
 A _break_ egymást követő _szabályos belökések_ sorozata, amelyet egy _vizit_ alkalmával visz véghez a _támadójátékos_ a _frame_-en belül. +
@@ -124,11 +124,11 @@ A _break_ egymást követő _szabályos belökések_ sorozata, amelyet egy _vizi
 [lowerroman]
 .. minden _frame_ kezdete előtt;
 .. ha _szabálytalanul belökték_;
-.. ha _elhagyta a játékteret_;
-.. a Visszarakott Fekete játék esetén (lásd <<Blackballgame>>).
+.. ha _elhagyta a játékteret_; vagy
+.. ha a Fekete golyót Visszarakott Fekete játékhoz (lásd <<Blackballgame>>) helyezték vissza az asztalra.
 . A Fehér golyó mindaddig kézben van, amíg:
 [lowerroman]
-.. a _kézből_ történő lökés szabályosan le nem zajlik,
+.. a _kézből_ történő lökés szabályosan le nem zajlik; vagy
 .. a _támadójátékos_ _hibát_ követ el a Fehér golyóval úgy, hogy elveszti felette a kontrollt.
 . A _támadójátékos_ _kézből_ jön, amíg a fentiek szerint a Fehér golyó kézben van.
 
@@ -143,8 +143,8 @@ _Célgolyó_ bármely golyó lehet, amit szabályos elsőként eltalálni a Feh�
 
 === Választott célgolyó
 [loweralpha]
-. _Választott célgolyó_ (nomiated ball) az a _célgolyó_, amit a _támadójátékos_ a játékvezető belátása szerint egyértelműen kiválaszt, mint elsőként eltalálandó golyót, vagy amit szóban megnevez (declared ball).
-. Ha a játékvezető erre kéri, a játékos köteles szóban megnevezni a _választott célgolyót_.
+. _Választott célgolyó_ az a _célgolyó_, amit a _támadójátékos_ a játékvezető belátása szerint egyértelműen kiválaszt (nomiate), mint elsőként eltalálandó golyót, vagy amit szóban _megnevez_ (declare).
+. Ha a játékvezető erre kéri, a játékos köteles szóban _megnevezni_ a _választott célgolyót_.
 
 === Free ball
 A _free ball_ egy nem-_célgolyó_, amit a vétlen játékos _célgolyónak_ választ, ha _hiba_ után _snookerállásba_ került (lásd <<Freeball>>).
@@ -168,8 +168,8 @@ hogy ezt nem-_célgolyó_ akadályozná, a Fehér golyó nincs _snookerállásba
 . A kézben lévő Fehér golyó akkor van _snookerállásban_, ha nincs a _“D”_ vonalán belül olyan pont, ahol nem lenne _snookerállásban_ a fentebb írtak szerint.
 . Amikor a Fehér golyót a fentiek szerint több nem-_célgolyó_ is akadályozza abban, hogy eltaláljon egy _célgolyót_, akkor közülük:
 [lowerroman]
-.. a Fehér golyóhoz legközelebb eső _tárgygolyó_ minősül az effektív snookeradó golyónak;
-.. a Fehér golyóhoz legközelebb eső, de tőle egyenlő távolságra lévő _tárgygolyók_ mindegyike effektív snookeradó golyónak minősül.
+.. a Fehér golyóhoz legközelebb eső nem-_célgolyók_ minősül az effektív snookeradó golyónak;
+.. a Fehér golyóhoz legközelebb eső, de tőle egyenlő távolságra lévő nem-_célgolyók_ mindegyike effektív snookeradó golyónak minősül.
 . Amikor Piros a _célgolyó_, és az asztalon lévő különböző Piros golyókat különböző nem-_célgolyók_ takarják, akkor nincs effektív snookeradó golyó.
 . Egy _támadójátékos_ akkor kapott snookert, ha a fentiek alapján a Fehér golyó _snookerállásban_ van.
 . A Fehér golyó nem lehet _snookerállásban_ a falak miatt.
@@ -193,11 +193,11 @@ _Ugratásnak_ azt nevezzük, mikor a Fehér golyó áthalad egy _tárgygolyó_ b
 === Miss
 _Missnek_ azt nevezzük, amikor:
 [loweralpha]
-. a Fehér golyó nem talál el elsőként egy _célgolyót_;
-. ha _free ball_ választása esetén a Fehér golyó első találata nem a választott _free ball_, vagy szimultán találat esetén nem a választott _free ball_ és a _célgolyó_.
+. a Fehér golyóval nem sikerül elsőként egy _célgolyót_ eltalálni;
+. _free ball_ választása esetén a Fehér golyó első találata nem a választott _free ball_, vagy szimultán találat esetén nem a választott _free ball_ és a _célgolyó_.
 
 === Konzultáció
-A _konzultáció_ során a játékosok közreműködhetnek abban, hogy a játékvezető visszaállítsa a korábbi állást egy _szabálytalanság_ (lásd <<ballmarker>>, <<koron-kivul>>, <<lokes-elott>>, <<FandM>>, <<Szandekos-mozgatas>>) vagy más esemény (lásd <<Zseb-szelen>>) után. A _konzultáció_ akkor kezdődik, mikor a visszaállításról döntés születik, és addig tart, míg a játékosok egybehangzóan elfogadják a visszaállított állást, vagy a játékvezető úgy nem dönt.
+A _konzultáció_ során a játékosok közreműködhetnek abban, hogy a játékvezető visszaállítsa a korábbi állást egy _szabálytalanság_ (lásd <<ballmarker>>, <<koron-kivul>>, <<lokes-elott>>, <<FandM>>, <<Szandekos-mozgatas>>) vagy más esemény (lásd <<Zseb-szelen>>, <<Magic>>) után. A _konzultáció_ akkor kezdődik, mikor a visszaállításról döntés születik, és addig tart, míg a játékosok egybehangzóan elfogadják a visszaállított állást, vagy a játékvezető úgy nem dönt.
 
 == FEJEZET: A JÁTÉK
 
@@ -207,34 +207,31 @@ A snookert játszhatja két játékos, vagy kettőnél több játékos csapatokb
 
 [loweralpha]
 . [[Values, 3.1 a) A golyók pontértéke]]A játékosok ugyanazt a Fehér _célzógolyót_ használják, és huszonegy _tárgygolyót_ (15 Piros és 6 színes). A Piros golyók pontértéke 1, a hat színes pontértéke eltérő: a Sárga 2, a Zöld 3, a Barna 4, a Kék 5, a Rózsa 6, és a Fekete golyó 7 pontot ér.
-. A pontszerzés egy _vizit_ során Piros és színes golyók felváltott _belökésével_ történik, amíg a Piros golyók el nem fogynak az asztalról; ekkor a színes golyókat pontértékük szerinti emelkedő sorrendben kell belökni.
-. A _belökött_ golyók pontértéke a _támadójátékos_ pontjaihoz adódik.
-. A szabálytalanságok után járó hibapontok a vétlen játékos pontjaihoz adódnak.
-. A _frame_-eken belül általános taktika, hogy a _támadójátékos_ vagy csapat a Fehér golyót egy nem-_célgolyó_ mögé állítja, _snookerállásba_. Amikor az asztalon lévő golyók pontértéke összességében már nem elég a _frame_ megnyeréséhez, a snookeradás és a hibapontok gyűjtése lesz a legfontosabb.
+. A pontszerzés egy _vizit_ során Piros és színes golyók felváltott _szabályos belökésével_ történik, amíg a Piros golyók el nem fogynak az asztalról; ekkor a színes golyókat pontértékük szerinti emelkedő sorrendben kell belökni.
+. A _szabályosan belökött_ golyók pontértéke a _támadójátékos_ pontjaihoz adódik.
+. A _szabálytalanságok_ után járó _hibapontok_ a vétlen játékos pontjaihoz adódnak.
+. A _frame_-eken belül általános taktika, hogy a _támadójátékos_ vagy csapat a Fehér golyót egy nem-_célgolyó_ mögé állítja, _snookerállásba_. Amikor az asztalon lévő golyók pontértéke összességében már nem elég a _frame_ megnyeréséhez, a snookeradás és a _hibapontok_ gyűjtése lesz a legfontosabb.
 . A _frame_ nyertese az a játékos vagy csapat,
 [lowerroman]
 .. aki több pontot gyűjtött;
-.. akinek a javára a _frame_-et feladták;
-.. akinek a javára ítélték a _frame_-et az alábbi szabályok egyike értelmében: <<harom-miss>>, <<Unfairplay>>, <<Sabotage>>, <<Idohuzas>>, <<Ismetelt-idohuzas>>.
+.. akinek a javára a _frame_-et feladták; vagy
+.. akinek a javára ítélték a _frame_-et az alábbi szabályok egyike értelmében: <<harom-miss>>, <<Frame-loss-unfairplay>>, <<Minosithetetlen-viselkedes>>, <<Frame-loss-idohuzas>>, <<Repeated-frame-loss-idohuzas>>.
 . A játék nyertese az a játékos vagy csapat,
 [lowerroman]
 .. aki több _frame_-et nyert, vagy megnyerte a szükséges számú _frame_-et;
-.. aki összességében több pontot szerzett, amennyiben ezt veszik alapul;
-.. akinek a javára ítélték a meccset az alábbi szabályok egyike értelmében: <<Minosithetetlen-viselkedes>>, <<Sabotage>>.
-. A _meccs_ nyertese az a játékos vagy csapat,
-[lowerroman]
-.. aki több _játszmát_ nyert;
-.. aki összességében több pontot szerzett, amennyiben ezt veszik alapul.
+.. aki összességében több pontot szerzett, amennyiben ezt veszik alapul; vagy
+.. akinek a javára ítélték a meccset az alábbi szabályok egyike értelmében: <<Game-loss-unfairplay>>, <<Minosithetetlen-viselkedes>>.
+. A _meccs_ nyertese az a játékos vagy csapat, aki több _játszmát_ nyert, vagy összességében több pontot szerzett, amennyiben ezt veszik alapul.
 
 === A golyók helye
 
 [loweralpha]
 . Minden _frame_ kezdetekor a Fehér golyó _kézben van_, a _tárgygolyók_ pedig az alábbi pozíciókban:
 [lowerroman]
-.. A Piros golyók egyenlő oldalú háromszög alakzatban, szorosan egymás mellett helyezkednek el. A háromszög felső csúcsán álló Piros golyó az asztal hossztengelyén helyezkedik el közvetlenül a Rózsaszín golyó pontja felett, amilyen közel csak lehet, de a _pontot el nem foglalva_.
+.. A Piros golyók egyenlő oldalú háromszög alakzatban, szorosan egymás mellett helyezkednek el. A háromszög felső csúcsán álló Piros golyó az asztal hossztengelyén helyezkedik el közvetlenül a Rózsaszín golyó pontja felett, amilyen közel csak lehet, de a _pontot el nem foglalva_. A háromszög alapvonala a felső fallal párhozamos;
 .. A hat színes golyót a számukra kijelölt pontokra kell elhelyezni (lásd <<Pontok>>).
-. Amennyiben egy golyót nem a megfelelő helyre állítottak a játék kezdete előtt, a <<too-late>> szabály lép életbe, és a _frame_ a <<Kezdes>> szabály szerint kezdődik meg.
-. Ha a _frame_ elkezdődött, a játékban lévő golyókat csak a játékvezető tisztíthatja meg a _támadójátékos_ indokolt kérésére, és:
+. Amennyiben az asztal felállításában hiba történik, a <<too-late>> szabály lép életbe, és a _frame_ a <<Kezdes>> szabály szerint kezdődik meg.
+. Miután a _frame_ elkezdődött, a játékban lévő golyókat csak a játékvezető tisztíthatja meg a _támadójátékos_ indokolt kérésére, és:
 [lowerroman]
 .. az elmozdítás előtt a golyó pozícióját egy erre alkalmas eszközzel meg kell jelölni;
 .. [[ballmarker, 3.2 c)ii A golyójelölő elmozdítása]]egy golyó tisztítása alatt használt pozíciójelölő eszköz az általa jelölt golyónak tekintendő és annak értékét veszi fel egészen addig, míg azt vissza nem helyezik az asztalra. 
@@ -254,21 +251,21 @@ A játék sorrendjét közösen választott módon kell kisorsolni; a sorsolást
 . Ha _frame_-et nem a megfelelő játékos vagy csapat kezdte:
 [lowerroman]
 .. amennyiben csak egy lökés volt, és _hiba_ nem történt, a _frame_-et újrakezdik anélkül, hogy bárki büntetést kapna;
-.. amennyiben legalább két _lökés_ volt, vagy bármilyen _szabálytalanság_ történt, a _frame_ nem kezdődik újra, és a _frame_-ek a helyes kezdési sorrendben folytatódnak, vagyis a soron kívül kezdő játékos három egymást követő _frame_-et fog kezdeni;
+.. amennyiben legalább két _lökés_ volt, vagy bármilyen _szabálytalanság_ történt a _lökés_ közben vagy után, a _frame_ nem kezdődik újra, és a _frame_-ek a helyes kezdési sorrendben folytatódnak, vagyis a soron kívül kezdő játékos három egymást követő _frame_-et fog kezdeni;
 .. [[re-rack, 3.3 d)iv Az elrontott kezdési sorrend visszaállítása újraállításnál]]amennyiben patthelyzet alakul ki (lásd <<Patthelyzet>>) és a _frame_-et újrakezdik, akkor a helyes kezdési sorrendet vissza kell állítani.
 . Egy _lökés_ akkor tekinthető szabályosnak, ha a <<Hibapontok>> szabály alatt felsorolt szabálytalanságok egyikét sem követik el.
 . A _támadójátékos_ felelőssége, hogy meggyőződjön róla, hogy a saját _vizitje_ vagy az azt megelőző _vizit_ során használt összes segédeszközt és egyéb tárgyat eltávolították az asztalról.
-. Amíg az összes Piros golyó játékon kívül nem kerül, addig valamennyi Piros golyó, vagy a Piros golyó helyett megnevezett _free ball_ számít választható _célgolyónak_ egy _vizit_ első _lökésénél_; amennyiben a játékos egy _lökés_ során több Pirosat (beleértve a Piros helyett megnevezett _free ballt_ is) is belök, mindegyik után pontot kap. +
+. Amíg az összes Piros golyó játékon kívül nem kerül, addig valamennyi Piros golyó, vagy a Piros golyó helyett választott _free ball_ számít _célgolyónak_ egy _vizit_ első _lökésénél_; amennyiben a játékos egy _lökés_ során több Pirosat (beleértve a Piros helyett megnevezett _free ballt_ is) is belök, mindegyik után pontot kap. +
 [lowerroman]
 .. Ha egy játékos belök egy Piros golyót, vagy a Piros golyó helyett megnevezett _free ballt_, akkor a következő _lökésnél_ a _célgolyó_ egy szabadon választott színes golyó; ha a játékos a kiválasztott színes golyót belöki, megkapja az utána járó pontokat, és a színes golyót visszahelyezik az asztalra.
 .. A _break_ során a Piros és színes golyókat mindaddig felváltva kell belökni, amíg minden Piros játékon kívül nem kerül, és adott esetben egy színes golyót be nem löknek az utolsó Piros golyót követően.
-.. [[Vegjatek, 3.3 h)iii Végjáték a színes golyókkal]]Ezt követően a színes golyókat a pontértéküknek megfelelő, növekvő sorrendben (lásd <<Values>>) kell belökni; a _szabályosan belökött_ színes golyók ekkor már játékon kívül maradnak és a pontértékben következő színes golyóval kell folytatni a játékot (kivéve ha közben életbe lép a <<vege>> szabály).
+.. [[Vegjatek, 3.3 h)iii Végjáték a színes golyókkal]]Ezt követően a színes golyókat a pontértékük szerint növekvő sorrendben (lásd <<Values>>) kell belökni; a _szabályosan belökött_ színes golyók ekkor már játékon kívül maradnak és a pontértékben következő színes golyóval kell folytatni a játékot (kivéve ha közben életbe lép a <<vege>> szabály).
 .. Abban az esetben, ha a _támadójátékos_ egy _break_ során azelőtt végez el egy lökést, hogy a játékvezető az előzőleg belökött színes golyót az asztalra visszahelyezte volna, de minden más golyó már nyugalmi helyzetben van, a színes golyó után járó pontokat nem kapja meg, és a <<too-soon-fb>> vagy a <<too-soon>> szabály lép érvénybe.
 . A Piros golyókat _szabályos_ vagy _szabálytalan_ _belökés_, vagy a _játéktér elhagyása_ után általában nem kell az asztalra visszatenni, függetlenül attól, hogy ez a vétkes játékosnak kedvez-e; kivételt a következő esetek képeznek: <<ballmarker>>, <<koron-kivul>>, <<Zseb-szelen>>, <<lokes-elott>>, <<FandM-után>>, <<miss-utan-lokes-elott>>, <<Magic>>, <<Szandekos-mozgatas>>, <<Hibas-eszkoz>>.
-. Amennyiben a _támadójátékosnak_ nem sikerül pontot szereznie, az asztalt késedelem nélkül el kell hagynia. Ha a játékos _hibát_ követ el mielőtt vagy miközben az asztaltól távozik, a <<Hibapontok>> szakasz szerint büntetést kap. A játékot onnan kell folytatni, ahol a Fehér golyó megállt, vagy _kézből_, ha játékon kívül került, kivéve, ha a <<lokes-elott>> vagy a <<miss-utan-lokes-elott>> szabály szerint helyezik vissza.
-. [[koron-kivul, 3.3 k) Hiba körön kívül]]Ha a nem-_támadójátékos_ a körén kívül az asztalhoz áll és bármilyen _szabálytalanságot_ elkövet, a játékvezető _Megrovást_ ítél, az esetlegesen elmozdított golyókat visszaállítja, és a _támadójátékos_ _vizitje_ folytatódik.+
+. Amennyiben a _támadójátékosnak_ nem sikerül pontot szereznie, az asztalt késedelem nélkül el kell hagynia. Ha a játékos _hibát_ követ el mielőtt vagy miközben az asztaltól távozik, a <<Hibapontok>> szakasz szerint büntetést kap. A játékot onnan kell folytatni, ahol a Fehér golyó megállt, vagy _kézből_, ha játékon kívül került, kivéve, ha a <<lokes-elott>>, a <<miss-utan-lokes-elott>>, vagy a <<Szandekos-mozgatas>> szabály szerint helyezik vissza.
+. [[koron-kivul, 3.3 k) Hiba körön kívül]]Ha a nem-_támadójátékos_ a körén kívül az asztalhoz áll és bármilyen _szabálytalanságot_ elkövet, a játékvezető _megrovást_ ítél, az esetlegesen elmozdított golyókat visszaállítja, és a _támadójátékos_ _vizitje_ folytatódik.+
 Az elmozdított golyók visszaállítása _konzultáció_ keretében történik.
-. Ha egy játékos utolsó _lökése_ vagy _hibája_ után a soron következő játékos még azelőtt, hogy minden mozgó golyó megállt volna, vagy a színes golyókat visszahelyeznék az asztalra, ellöki a Fehér golyót vagy _szabálytalanságot_ követ el, úgy büntethető, mint _támadójátékos_, és a _vizitje_ véget ér.
+. Ha egy játékos utolsó _lökése_ vagy _hibája_ után a soron következő játékos még azelőtt ellöki a Fehér golyót, hogy minden mozgó golyó megállt volna, vagy a színes golyókat visszahelyeznék az asztalra, _szabálytalanságot_ követ el, úgy büntethető, mint _támadójátékos_, és a _vizitje_ véget ér.
 . Ha egy golyó a zsebbe esik, de ezt követően visszapattan a játéktérre, nem tekinthető sem _szabályosan_, sem _szabálytalanul_ _belökött_ golyónak. Ilyen esetben egyik játékos sem büntethető.
 
 === A frame, játszma vagy meccs vége [[vege, 3.4 A frame, játszma vagy meccs vége]]
@@ -277,7 +274,7 @@ Az elmozdított golyók visszaállítása _konzultáció_ keretében történik.
 [lowerroman]
 .. ha ezzel pontegyenlőség alakul ki; és
 .. a játék eredménye nem kizárólag a teljes _meccs_ során gyűjtött pontok végösszege alapján dől el.
-. [[Blackballgame, 3.4 b) Visszarakott Fekete]] Amikor az a) pontban felsorolt mindkét kitétel teljesül, akkor úgynevezett Visszarakott Fekete játék következik:
+. [[Blackballgame, 3.4 b) Visszarakott Fekete]] Amikor az a) pontban felsorolt mindkét kitétel teljesül:
 [lowerroman]
 .. a Fekete golyó visszakerül a helyére;
 .. a játékosok kisorsolják, hogy ki döntsön arról, ki végezze el az első lökést;
@@ -296,11 +293,11 @@ _Kézből_ történő játék során a Fehér golyót a "D" vonalára vagy azon 
 
 === Két golyó együttes találata
 
-Szabálytalan, ha a Fehér golyó első találatával egyszerre két golyót érint, kivéve, ha mindkét eltalált golyó Piros, vagy az egyik egy választható _célgolyó_, a másik pedig a _free ballként_ megnevezett golyó.
+Szabálytalan, ha a Fehér golyó első találatával egyszerre két golyót érint, kivéve, ha mindkét eltalált golyó Piros, vagy az egyik egy választható _célgolyó_, a másik pedig a _free ballként_ választott golyó.
 
 === A színes golyók visszahelyezése [[respot_colour, 3.7 A színes golyók visszahelyezése]]
 
-Ha egy színes golyót _szabályosan_ vagy _szabálytalanul_ _belöknek_, vagy ha _elhagyja a játékteret_, úgy azt a következő _lökés_ előtt a játéktérre vissza kell helyezni, ameddig a <<Vegjatek>> szabály hatálya alatt utoljára, _szabályosan be nem lökik_.
+Ha egy színes golyót _szabályosan_ vagy _szabálytalanul_ _belöknek_, vagy ha _elhagyja a játékteret_, úgy azt a következő _lökés_ előtt vissza kell helyezni a játéktérre, ameddig a <<Vegjatek>> szabály hatálya alatt utoljára, _szabályosan be nem lökik_.
 [loweralpha]
 . A játékos nem büntethető azért, ha a játékvezető hibázik a golyók visszahelyezésekor.
 . Ha egy színest helytelenül visszaállítanak, miközben a <<Vegjatek>> szabály szerint már csak a színeseket kell pontérték szerint növekvő sorrendben belökni, úgy a hibásan visszahelyezett színest a hiba észlelésekor azonnal el kell távolítani, hibapont jóváírása nélkül, és a játékot az adott állásból kell folytatni.
@@ -313,7 +310,7 @@ Ha a színest _szabályosan belökték_, mielőtt a hibára fény derült volna,
 [lowerroman]
 .. amennyiben a helytelenül visszarakott Piros egyértelműen beazonosítható, úgy el kell távolítani az asztalról;
 .. amennyiben a helytelenül visszarakott Piros egyértelműen beazonosítható, de idő közben _szabályosan_ vagy _szabálytalanul_ _belökték_, _elhagyta a játékteret_; vagy ha a színes golyót idő közben visszahelyezték a c) pontban leírtak szerint; vagy ha a helytelenül visszarakott Piros nem azonosítható be egyértelműen, úgy a játék a kialakult helyzetből folytatódik, tehát a _frame_-ben összesen 16 Piros golyó kerül játékba. Azokban az esetekben, amikor egy színes golyó hiányzik az asztalról, azt minden esetben vissza kell helyezni, és a játékot az így kialakult állásból, _hibapontok_ nélkül kell folytatni.
-. Ha egy színest vissza kell tenni az asztalra, de a saját helye _foglalt_, akkor a legmagasabb értékű szabad helyre kell visszahelyezni.
+. Ha egy színest vissza kell tenni az asztalra, de a saját helye _foglalt_, akkor a legmagasabb pontértékű szabad helyre kell visszahelyezni.
 . Ha több színest kell visszahelyezni az asztalra, és mindegyiknek a saját helye _foglalt_, akkor a legmagasabb pontértékű golyó kerül a legmagasabb pontértékű golyó szabad helyére.
 . Ha az összes színes golyó helye _foglalt_, akkor a színes golyót a saját helye és a felső rövid fal hozzá legközelebb eső pontja közé, a saját pontjához lehető legközelebbre kell visszahelyezni.
 . A Rózsa és a Fekete esetében, ha a golyót nem lehet a saját helye és a felső rövid fal közé visszatenni, úgy a golyót az asztal hossztengelyén a színes golyó saját helye és az alsó rövid fal közé, a saját pontjához lehető legközelebbre kell visszahelyezni.
@@ -322,18 +319,18 @@ Ha a színest _szabályosan belökték_, mielőtt a hibára fény derült volna,
 
 === Touching ball
 [loweralpha]
-. Ha egy _lökést_ követően a Fehér úgy állapodik meg, hogy hozzáér egy vagy több _ célgolyóhoz_, vagy _célgolyóként_ megnevezhető golyóhoz, a játékvezető *touching ball*t ítél, és amennyiben kérdéses, jelzi, hogy melyik golyók érnek hozzá a Fehér golyóhoz.
-Amennyiben egy Piros _szabályos belökése_ után a Fehér golyó úgy állapodik meg, hogy egy vagy több színes golyóhoz hozzáér, úgy a játékvezetőnek meg kell kérnie a _támadójátékost_, hogy szóban nevezze meg a _célgolyóként_ választott színest.
-. Touching ball esetén a _támadójátékosnak_ úgy kell meglöknie a Fehér golyót, hogy a vele érintkező golyó ne mozduljon meg; ha mégis mozdulna, az _tolásnak_ minősül.
+. Ha egy _lökést_ követően a Fehér úgy állapodik meg, hogy hozzáér egy vagy több _célgolyóhoz_, vagy _célgolyóként_ megnevezhető golyóhoz, a játékvezető touching ballt ítél, és amennyiben kérdéses, jelzi, hogy melyik golyók érnek hozzá a Fehér golyóhoz.
+Amennyiben egy Piros _szabályos belökése_ után a Fehér golyó úgy állapodik meg, hogy egy vagy több színes golyóhoz hozzáér, úgy a játékvezetőnek meg kell kérnie a _támadójátékost_, hogy szóban _nevezze meg_ a _célgolyóként_ választott színest.
+. Touching ball esetén a _támadójátékosnak_ úgy kell meglöknie a Fehér golyót, hogy az a vele érintkező golyót ne mozdítsa meg; ha mégis, az _tolásnak_ minősül.
 . Ha a játékos a _lökés_ közben egyetlen, a Fehér golyóval érintkező _tárgygolyót_ sem mozdít meg, nem kap büntetést, ha a Fehérrel érintkező golyó:
 [lowerroman]
 .. _célgolyó_;
 .. _célgolyóként_ megnevezhető, és a _támadójátékos_ meg is nevezi;
 .. _célgolyóként_ megnevezhető, de a _támadójátékos_ egy másik golyót nevez meg és azt találja el elsőként.
-. Ha egy _lökést_ követően a Fehér úgy állapodik meg, hogy hozzáér vagy majdnem hozzáér egy nem-_célgolyóhoz_, a _támadójátékos_ kérésére a játékvezetőnek egyértelműen meg kell válaszolnia, hogy a golyók érintkeznek-e.
-. Ha egy _lökést_ követően a Fehér úgy állapodik meg, hogy _célgolyóhoz_ és nem-_célgolyóhoz_ is hozzáér, úgy a játékvezető csak a _célgolyót_ nevezi meg touching ballként. A _támadójátékos_ kérésére a játékvezetőnek egyértelműen meg kell válaszolnia, hogy a Fehér érintkezik-e a nem-_célgolyóval_ is.
+. Ha egy _lökést_ követően a Fehér golyó úgy állapodik meg, hogy hozzáér vagy majdnem hozzáér egy nem-_célgolyóhoz_, a _támadójátékos_ kérésére a játékvezetőnek egyértelműen meg kell válaszolnia, hogy a golyók érintkeznek-e.
+. Ha egy _lökést_ követően a Fehér golyó úgy állapodik meg, hogy _célgolyóhoz_ és nem-_célgolyóhoz_ is hozzáér, úgy a játékvezető csak a _célgolyót_ nevezi meg touching ballként. A _támadójátékos_ kérésére a játékvezetőnek egyértelműen meg kell válaszolnia, hogy a Fehér érintkezik-e a nem-_célgolyóval_ is.
 . Amennyiben a touching ball _lökés_ közben megmozdul, de a játékvezető meggyőződése, hogy ez nem a _lökés_ miatt történt, úgy a _lökés_ szabályos.
-. Ha a Fehér nem érintkezett a hozzá közel lévő, álló golyóhoz mikor a játékvezető megvizsgálta az állást, később azonban mégis hozzáér, úgy ha még nem történt _lökés_, a golyókat visszaállítja a korábbi, nem érintkező helyzetbe. A korábbi állapotot akkor is vissza kell állítani, ha a korábban ragadó golyók később nem érintkeznek.
+. Ha a Fehér golyó nem érintkezett a hozzá közel lévő, álló golyóhoz mikor a játékvezető megvizsgálta az állást, később azonban mégis hozzáér, úgy ha még nem történt _lökés_, a golyókat visszaállítja a korábbi, nem érintkező helyzetbe. A korábbi állapotot akkor is vissza kell állítani, ha a korábban ragadó golyók később nem érintkeznek.
 
 === Golyó a zseb szélén [[Zseb-szelen, 3.9 Golyó a zseb szélén]]
 Ha egy golyó úgy esik a zsebbe, hogy más golyó nem ért hozzá, akkor:
@@ -342,25 +339,25 @@ Ha egy golyó úgy esik a zsebbe, hogy más golyó nem ért hozzá, akkor:
 . ha a golyó a _lökésben_ érintett lehetett volna, akkor:
 [lowerroman]
 .. ha nem történt _szabálytalanság_ vagy _hiba_ (beleértve egy esetleges olyan _hibát_ is, amiben a leeső golyó szerepelhetett volna), úgy a _lökés_ előtti állapotot vissza kell állítani és a _lökést_ megismételni. A _támadójátékos_ ilyenkor választhat másik _lökést_ is;
-.. ha _hiba_ történt, úgy a _támadójátékos_ a <<Hibapontok>> szakasz alapján büntetést kap; minden golyót vissza kell helyezni a _lökés_ előtti állapotba, és a _foul_ után érvényes szabályok szerint folytatni a játékot.
+.. ha _hiba_ történt, úgy a _támadójátékos_ a <<Hibapontok>> szakasz alapján büntetést kap; minden golyót vissza kell helyezni a _lökés_ előtti állapotba, és a vétlen játékos a _foul_ után érvényes lehetőségek közül választhat.
 . Ha egy golyó a zseb szájában egy pillanatra megáll, de ezt követően beesik, akkor _szabályosan_ vagy _szabálytalanul_ _belököttnek_ számít, és nem kell visszahelyezni. +
 
 Ha egy (vagy több) golyót vissza kell állítani, akkor _konzultáció_ kezdődik.
 
-=== Hibázás [[Hibazas, 3.10 Hibázás]]
+=== Hibák [[Hibak, 3.10 Hibák]]
 Ha egy játékos _hibát_ követ el, azt a játékvezető azonnal bejelenti (FOUL).
 [loweralpha]
-. Ha a _támadójátékos_ még nem végezte el a _lökést_, úgy a köre véget ér, és a játékvezető bemondja a hibapontot.
-. Ha a _támadójátékos_ már elvégezte a _lökést_, a játékvezető megvárja, míg a _lökés_ véget ér, és ezután mondja be a hibapontokat.
-. Ha egy _hibát_ a játékvezető nem mond be, és a vétlen játékos sem jelzi hitelt érdemlően a következő _lökés_ előtt, úgy a _hibát_ elengedik.
+. Ha a _támadójátékos_ a hiba elkövetésekor még nem végezte el a _lökést_, úgy a köre véget ér, és a játékvezető bemondja a hibapontot.
+. Ha a _támadójátékos_ a hiba elkövetésekor már elvégezte a _lökést_, a játékvezető megvárja, míg a _lökés_ véget ér, és ezután mondja be a hibapontokat.
+. Ha egy _hibát_ a játékvezető nem mond be, és a vétlen játékos sem jelzi hitelt érdemlően a következő _lökés_ előtt, úgy a _hiba_ semmisnek minősül.
 . Ha egy színes golyót nem jó helyre helyeznek vissza, akkor ott marad, ahová helyezték, kivéve, ha nem került vissza az asztalra: ekkor a szabályoknak megfelelően vissza kell helyezni.
 . A _breakben_ a _hiba_ előtt szerzett pontok érvényesek, azonban a _szabálytalan_ _lökés_ során _belökött_ golyók _szabálytalanok_, így azok után a _támadójátékos_ nem kap pontot.
-. A következő lökést onnan kell elvégezni, ahol a Fehér golyó megállt, kivéve, ha lekerült a játéktérről; ilyenkor a játékos _kézből_ jön.
+. A következő lökést onnan kell elvégezni, ahol a Fehér golyó megállt; ha lekerült a játéktérről, akkor _kézből_.
 . Ha egy _lökés_ során több _hiba_ is történik, úgy a legnagyobb pontértékű _hiba_ számít.
 . A hibázó játékos:
 [lowerroman]
 .. a <<Hibapontok>> szakasz szerinti büntetésben részesül; és
-.. el kell végeznie a következő _lökést_, ha a másik játékos erre kéri.
+.. köteles elvégezni a következő _lökést_, ha a vétlen játékos erre kéri.
 . [[lokes-elott, 3.10 i) Hiba a lökés előtt]]Ha a _támadójátékos_ még a _lökés_ előtt bármely golyón _hibát_ követ el (a Fehéret is beleértve), úgy a _hibának_ megfelelő büntetést kapja. A vétlen játékos ezután választhat, hogy folytatja a játékot a _hiba_ után maradt állásból, az ellenfelet kéri erre, vagy újra játszatja az ellenfelet a _hiba_ előtti állásból. Ez utóbbi esetben minden golyót vissza kell állítani a _hiba_ előtti helyére, és a _célgolyó_ a _hibát_ megelőző _célgolyó_ kell, hogy legyen, tehát:
 [lowerroman]
 .. bármely Piros, ha Piros volt a _célgolyó_;
@@ -375,30 +372,31 @@ Az alább felsorolt esetek minősülnek hibának (foul); a _hibák_ alap pontér
 [loweralpha]
 . A hibapontok száma a _célgolyó_ értéke, ha a _támadójátékos_:
 [lowerroman]
-.. [[too-soon-fb, 3.11 a)i Túl korai _lökés_ free ball után]]azelőtt végzi el a következő _lökést_, hogy a játékvezető vissza tudta volna helyezni a _free ballként_ megnevezett színest;
+.. [[too-soon-fb, 3.11 a)i Túl korai _lökés_ free ball után]]azelőtt végzi el a következő _lökést_, hogy a játékvezető vissza tudta volna helyezni a _free ballként_ választott színest;
 .. a kilökés során a Fehér golyót egynél többször érinti;
 .. [[lab-a-talajon, 3.11 a)iii Legalább az egyik láb a talajon kilökéskor]]_lökés_ közben egyik lábával sem érinti a talajt;
 .. páros snookerben soron kívül lök;
 .. szabálytalanul lök _kézből_, a kezdést is beleértve;
-.. a Fehérrel egyetlen _célgolyót_ sem talál el;
+.. a Fehér golyóval egyetlen _célgolyót_ sem talál el;
 .. a Fehér golyót _belöki_;
-.. snookert ad a _free ballként_ megnevezett golyó mögött, kivéve a <<Snooker-fb-mogott>> szabályban említett kivételt;
+.. snookert ad a _free ballként_ választott golyó mögött, kivéve a <<Snooker-fb-mogott>> szabályban említett kivételt;
+.. hatpirosas snookerben snookert ad a _választott_ színes golyó mögött;
 .. _ugrat_;
-.. nem szabályos dákóval játszik;
+.. nem szabályos dákóval játszik; vagy
 .. egyeztet vagy kommunikál egy partnerével, kivéve <<Paros-snooker>>.
 . A hibapontok száma a _célgolyó_ vagy a _hibában_ érintett golyó pontértéke közül a magasabb, ha a _támadójátékos_:
 [lowerroman]
 .. azelőtt hajt végre _lökést_, hogy minden golyó megállt volna;
 .. [[too-soon, 3.11 b)ii Túl korai lökés]]azelőtt végzi el a következő _lökést_, hogy a játékvezető vissza tudta volna helyezni a _belökött_ színest amely nem volt _free ball_;
 .. egy nem-_célgolyót_ _belök_,
-.. a Fehérrel elsőként egy nem-_célgolyót_ talál el, vagy _free ball_ esetén nem a megnevezett golyót találja el, kivéve, ha egyszerre találja el a _free ballként_ megnevezett golyót és a _célgolyót_;
+.. a Fehérrel elsőként egy nem-_célgolyót_ talál el, vagy _free ball_ esetén nem a _válaszott_ golyót találja el, kivéve, ha egyszerre találja el a _free ballként_ választott golyót és a _célgolyót_;
 .. _tolást_ követ el;
 .. bármely testrészével, ruházatával vagy eszközével hozzáér egy _játékban lévő golyóhoz_, vagy bármilyen eszközhöz, amely egy _játékban lévő golyó_ helyzetét jelöli;
 .. hozzáér a Fehér golyóval bármely _játékban lévő golyóhoz_, mikor _kézből_ jön;
 .. egy _játékban lévő golyót_ bármilyen módon hozzáérint egy tárgyhoz vagy eszközhöz, amit az asztalon vagy az asztalnál hagytak akár az ezt megelőző körökben;
-.. azelőtt végzi el a _lökést_, hogy egy tisztítás alatt lévő golyó az asztalra visszakerült volna;
+.. azelőtt végzi el a _lökést_, hogy egy tisztítás alatt lévő golyó az asztalra visszakerült volna; vagy
 .. tevékenysége folytán egy golyó _elhagyja a játékteret_;
-. A hibapontok száma a _célgolyó_ vagy az érintett két golyó pontértéke közül a magasabb, ha a _támadójátékos_ egyszerre talál el két golyót, kivéve, ha mindkét golyó Piros (és Piros a _célgolyó_), vagy a _célgolyó_ és a _free ballként_ megnevezett golyó.
+. A hibapontok száma a _célgolyó_ vagy az érintett két golyó pontértéke közül a magasabb, ha a _támadójátékos_ egyszerre talál el két golyót, kivéve, ha mindkét golyó Piros (és Piros a _célgolyó_), vagy a _célgolyó_ és a _free ballként_ választott golyó.
 . A _hiba_ értéke hét pont, ha a _támadójátékos_:
 [lowerroman]
 .. játékon kívüli golyót használ bármilyen célra;
@@ -423,15 +421,15 @@ Ha egy _hibát_ követően a Fehér golyó _snookerállásba_ kerül (lásd <<Sn
 . Ha a vétlen játékos vállalja a következő _lökést_:
 [lowerroman]
 .. bármely golyót megnevezheti _célgolyóként_, de  _free ballnak_ nem választhatja a tényleges _célgolyót_;
-.. a _free ballként_ megnevezett golyót úgy kell kezelni és pontozni, mint a helyettesített golyót, de _szabályos belökés_ esetén vissza kell helyezni az asztalra.
+.. a _free ballként_ választott golyót úgy kell kezelni és pontozni, mint a helyettesített golyót, de _szabályos belökés_ esetén vissza kell helyezni az asztalra.
 . _Hibának_ számít, ha a Fehér golyó:
 [lowerroman]
-.. nem a _free ballként_ megnevezett golyót találja el először, kivéve, ha egyszerre találja el azt és a _célgolyót_;
-.. [[Snooker-fb-mogott, 3.12 b)ii Snooker a free ball mögött]]pontszerzés nélküli _lökés_ esetén _snookerállásba_ kerül az összes Piros golyóra vagy a _célgolyóra_ a _free ballként_ megnevezett golyó mögött, kivéve, ha már csak két _célgolyó_ van az asztalon, tehát a Rózsa és a Fekete golyó, vagy a Fekete és egy másik színes a <<respot_colour>>  szabály szerint.
-. A _free ballként_ megnevezett golyó szabályos belökést_ követően visszakerül a helyére, és a helyettesített golyó pontértékét írják jóvá.
-. Ha a _célgolyót_ a _támadójátékos_ úgy löki be, hogy először a _free ballként_ megnevezett golyót találta el, vagy egyszerre találta el a _free ballt_ és a _célgolyót_, úgy a _célgolyó_ pontértékét jóváírják, és a golyó a zsebben marad.
+.. nem a _free ballként_ választott golyót találja el először, kivéve, ha egyszerre találja el azt és a _célgolyót_;
+.. [[Snooker-fb-mogott, 3.12 b)ii Snooker a free ball mögött]]pontszerzés nélküli _lökés_ esetén _snookerállásba_ kerül az összes Piros golyóra vagy a _célgolyóra_ a _free ballként_ választott golyó mögött, kivéve, ha már csak két _célgolyó_ van az asztalon, tehát a Rózsa és a Fekete golyó, vagy a Fekete és egy másik színes a <<respot_colour>>  szabály szerint.
+. A _free ballként_ választott golyó szabályos belökést_ követően visszakerül a helyére, és a helyettesített golyó pontértékét írják jóvá.
+. Ha a _célgolyót_ a _támadójátékos_ úgy löki be, hogy először a _free ballként_ választott golyót találta el, vagy egyszerre találta el a _free ballt_ és a _célgolyót_, úgy a _célgolyó_ pontértékét jóváírják, és a golyó a zsebben marad.
 . Ha a játékos a szabályosan belöki a _célgolyót_ és a _free ballként_  megnevezett golyót is, úgy csak a _célgolyó_ pontértékét írják jóvá;
-ez alól kivétel, ha a _célgolyó_ a Piros volt, ez esetben minden _belökött_ golyó számít. A _free ballként_  megnevezett golyó visszakerül a helyére, a _belökött_ _célgolyó_ pedig a zsebben marad.
+ez alól kivétel, ha a _célgolyó_ a Piros volt, ez esetben minden _belökött_ golyó számít. A _free ballként_ választott golyó visszakerül a helyére, a _belökött_ _célgolyó_ pedig a zsebben marad.
 . Ha a vétlen játékos átadja a lökés jogát, vagy a _hibát_ megelőző állás visszaállítását választja (<<lokes-elott>>, <<FandM-után>>, <<miss-utan-lokes-elott>>, <<Szandekos-mozgatas>>), úgy a megítélt _free ball_ érvényét veszti.
 
 === A lökés jogának átadása [[Ujrajatszas, 3.13 A lökés jogának átadása]]
@@ -445,7 +443,7 @@ Ha a vétlen játékos egy _hibát_ vagy _Foul and a Misst_ követően átadta a
 
 === Foul and a Miss [[FandM, 3.14 Foul and a Miss]]
 [loweralpha]
-. A _támadójátékosnak_ a legjobb tudása szerint igyekeznie kell eltalálni a _célgolyót_, vagy valamely _célgolyóként választható_ golyót egy Piros vagy a Piros helyett megnevezett _free ball_ belökése után. Ha a játékvezető úgy ítéli meg, hogy a játékos ennek a szabálynak nem tett eleget, úgy _Foul and a Misst_ ítél, kivéve az alábbi eseteket:
+. A _támadójátékosnak_ a legjobb tudása szerint igyekeznie kell eltalálni a _célgolyót_, vagy valamely _célgolyóként választható_ golyót egy Piros vagy a Piros helyett választott _free ball_ belökése után. Ha a játékvezető úgy ítéli meg, hogy a játékos ennek a szabálynak nem tett eleget, úgy _Foul and a Misst_ ítél, kivéve az alábbi eseteket:
 [lowerroman]
 .. [[frameball-utan, 3.13 a)i Frameball után]]ha bármely játékosnak a hibás _lökés_ előtt, vagy annak eredményeként már hibapontokra van szüksége, és a játékvezető úgy ítéli meg, hogy a _célgolyó_ elvétése (miss) nem volt szándékos;
 .. ha olyan állás keletkezett, ahol lehetetlen _célgolyót_ eltalálni. Ilyen esetben a játékvezető úgy ítélheti meg, hogy a játékos eltalálhatta volna a _célgolyót_, ha egyéb golyók nem akadályozzák; ennek feltétele, hogy a _támadójátékos_ lökése, _közvetetve_ vagy _közvetlenül_ a _célgolyóra_ irányuljon, és elegendő erővel történjen, hogy elérje _célgolyót_, ha az akadályozó golyók nem lennének.
@@ -453,7 +451,7 @@ Ha a vétlen játékos egy _hibát_ vagy _Foul and a Misst_ követően átadta a
 [lowerroman]
 .. bármely Piros, ha Piros volt a _célgolyó_;
 .. a soron következő színes, ha már csak színesek vannak az asztalon;
-.. a _támadójátékos_ által választott bármelyik színes, ha a _célgolyó_ egy Piros után lökött színes volt, vagy egy Piros helyett megnevezett _free ball_.
+.. a _támadójátékos_ által választott bármelyik színes, ha a _célgolyó_ egy Piros után lökött színes volt, vagy egy Piros helyett választott _free ball_.
 . Ha a _támadójátékos_ úgy véti el a találatot, hogy egyenes vonalban szabadon eltalálható lenne a _célgolyó_, vagy bármely, _célgolyóként_ megnevezhető golyó bármely része, úgy a játékvezető _Foul and a Misst_ ítél, kivéve, amikor már a <<frameball-utan>> szabály érvényes.
 . A c) pontban leírtak szerint _Foul and a Misst_ ítéltek, tehát egyenes vonalban szabadon látható egy _célgolyó_, vagy bármely, _célgolyóként_ megnevezhető golyó középpontja, tehát az úgynevezett "central full ball contact" megvalósítható (Piros golyók esetében ez úgy értendő, hogy van olyan Piros, amelynél a golyó átmérőjét színes golyó nem takarja), vagy a Fehér tapad egy olyan golyóra, amelyet meg lehet nevezni _célgolyóként_, akkor:
 [lowerroman]
@@ -464,7 +462,7 @@ Ha a vétlen játékos egy _hibát_ vagy _Foul and a Misst_ követően átadta a
 [lowerroman]
 .. bármely Piros, ha Piros volt a _célgolyó_;
 .. a soron következő színes, ha már csak színesek vannak az asztalon;
-.. a _támadójátékos_ által választott bármelyik színes, ha a _célgolyó_ egy Piros után lökött színes volt, vagy egy Piros helyett megnevezett _free ball_. +
+.. a _támadójátékos_ által választott bármelyik színes, ha a _célgolyó_ egy Piros után lökött színes volt, vagy egy Piros helyett választott _free ball_. +
 
 Ha az ebben a pontban leírt helyzet a d) szabály szerinti _Foul and a Miss_ sorozat közben történik, akkor a _frame_ elvesztésére vonatkozó figyelmeztetés csak akkor marad érvényben, ha a golyókat a _hiba_ előtti állásba állítják vissza.
 [loweralpha, start=6]
@@ -489,7 +487,7 @@ egy golyót szándékosan megmozdít vagy felemel, a játékvezető _hibát_ (FO
 [lowerroman]
 ... bármely Piros, ha Piros volt a _célgolyó_;
 ... a soron következő színes, ha már csak színesek vannak az asztalon;
-... a _támadójátékos_ által választott bármelyik színes, ha a _célgolyó_ egy Piros után lökött színes volt, vagy egy Piros helyett megnevezett _free ball_. +
+... a _támadójátékos_ által választott bármelyik színes, ha a _célgolyó_ egy Piros után lökött színes volt, vagy egy Piros helyett választott _free ball_. +
 
 Amennyiben ez az eset egy, a <<harom-miss>> szabályban leírt FOUL AND A MISS sorozat közben történik, és a vétlen játékos újrajátszást kér, a _frame_ elvesztésére vonatkozó figyelmeztetés érvényben marad.
 [loweralpha start=2]
@@ -552,14 +550,14 @@ A _támadójátékos_ felelőssége a használni kívánt eszközök asztalra he
 [lowerroman]
 .. durva kifejezéseket használ, sértő mozdulatokat tesz;
 .. [[Unfairplay, 4.1 a)ii Sportszerűtlen magatartás]] a játékvezető megítélése szerint szándékosan vagy folytatólagosan sportszerűtlen;
-.. [[Minosithetetlen-viselkedes, 4.1 a)iii Minősíthetetlen viselkedés]]bármilyen más módon kimeríti a sportszerűtlenség fogalmát;
+.. bármilyen más módon kimeríti a sportszerűtlenség fogalmát;
 .. [[Sabotage, 4.1 a)iv A játék szabotálása]] nem mutat hajlandóságot a _frame_ folytatására; +
 
 a játékvezetőnek figyelmeztetnie kell a játékost, hogy a sportszerűtlen magatartás folytatása esetén a _frame_-et a vétlen fél javára fogja ítélni. +
 [loweralpha, start=2]
-. [[Ismetelt-unfairplay, 4.1 b) A sportszerűtlen magatartás folytatása]] Ha a játékos az a) pont alapján figyelmeztést kapott, a játékvezető az ismételt sportszerűtlenség esetén az aktuális _frame_-et, vagy a két _frame_ között elkövetett sportszerűtlenségért a következő _frame_-et a vétlen játékosnak ítéli, és egyúttal figyelmezteti a játékost, hogy újabb sportszerűtlenség esetén a _játszmát_ a vétlen játékosnak ítéli.
-. Ha a játékos sportszerűtlenség miatt _frame_-et vesztett a b) vagy d) pont alapján, akkor a további sportszerűtlensége esetén a játékvezető odaítéli a _játszmát_ az ellenfélnek.
-. Ha a játékvezető megítélése szerint a sportszerűtlenség mértéke elegendően súlyos, úgy előzetes figyelmeztetés nélkül is odaítélheti a vétlen félnek a _frame_-et vagy a _játszmát_.
+. [[Frame-loss-unfairplay, 4.1 b) Framevesztés sportszerűtlen magatartás miatt]] Ha a játékos az a) pont alapján figyelmeztést kapott, a játékvezető az ismételt sportszerűtlenség esetén az aktuális _frame_-et, vagy a két _frame_ között elkövetett sportszerűtlenségért a következő _frame_-et a vétlen játékosnak ítéli, és egyúttal figyelmezteti a játékost, hogy újabb sportszerűtlenség esetén a _játszmát_ a vétlen játékosnak ítéli.
+. [[Game-loss-unfairplay, 4.1 c) Játszmaveszés sportszerűtlen magatartás miatt]] Ha a játékos sportszerűtlenség miatt _frame_-et vesztett a b) vagy d) pont alapján, akkor a további sportszerűtlensége esetén a játékvezető odaítéli a _játszmát_ az ellenfélnek.
+. [[Minosithetetlen-viselkedes, 4.1 d) Minősíthetetlen viselkedés]]Ha a játékvezető megítélése szerint a sportszerűtlenség mértéke elegendően súlyos, úgy előzetes figyelmeztetés nélkül is odaítélheti a vétlen félnek a _frame_-et vagy a _játszmát_.
 . A játékvezető döntése a _frame_ vagy a _játszma_ odaítéléséről minden esetben végleges, az ellen fellebbezésnek nincs helye.
 
 === A játék megadása
@@ -568,15 +566,15 @@ a játékvezetőnek figyelmeztetnie kell a játékost, hogy a sportszerűtlen ma
 . A játékos nem adhatja fel a _frame_-et egy _játszmában_, vagy a _meccset_, ha nincs szüksége _hibapontra_ a győzelemhez. A szabály megsértése sportszerűtlen magatartásnak minősül és ha a <<Sportszerutlen-magatartas>> alapján a játékos már kapott figyelmeztetést, úgy a következő _frame_-et az ellenfélnek ítélik.
 . Ha egy játékos a megadási szándékát jelzi azzal, hogy egy vagy több játékban lévő golyót megmozdít vagy megérint, a játékvezető nem ítél sem _hibát_, sem _megrovást_.
 Ha a megadást az ellenfél nem fogadja el, úgy a <<Szandekos-mozgatas>> szabályt kell alkalmazni.
-. Ha egy játékosnak nincs szüksége _hibapontra_ a győzelemhez, de szándékosan szabálytlanságot követ el, aminek következtében már szüksége lesz _hibapontra_, a játékvezető sportszerűtlen magatartás miatt figyelmezteti a <<Sportszerutlen-magatartas>> vagy <<Ismetelt-unfairplay>> szabály szerint.
+. Ha egy játékosnak nincs szüksége _hibapontra_ a győzelemhez, de szándékosan szabálytlanságot követ el, aminek következtében már szüksége lesz _hibapontra_, a játékvezető sportszerűtlen magatartás miatt figyelmezteti a <<Sportszerutlen-magatartas>> vagy <<Frame-loss-unfairplay>> szabály szerint.
 . A felajánlott megadást és annak elfogadását visszavonni nem lehet.
 . Ha a győztest az összesített pontszámok alapján határozzák meg, úgy feladott _frame_, _játszma_, vagy _meccs_ esetén az ellenfél annyi pontot kap, amennyi az asztalon maradt; a Piros golyók után 8 pontot kell számítani, és ha egy színes véletlenül hiányzik az asztalról, úgy is az asztalon lévőnek kell tekinteni.
 
 === Időhúzás
 [loweralpha]
 . Ha egy játékos a lökésre való felkészüléssel, vagy a lökés kiválasztásával irreálisan hosszú időt tölt el, a játékvezetőnek figyelmezteti, hogy a _játszma_ során újabb hasonló esetben a _frame_-et az ellenfélnek fogja ítélni.
-. [[Idohuzas, 4.3 b) Időhúzás]] Ha a játékos az a) pont alapján figyelmeztetést kapott, a játékvezető ismételt időhúzás esetén az aktuális _frame_-et az ellenfélnek ítéli.
-. [[Ismetelt-idohuzas, 4.3 c) Ismételt időhúzás]] Ha a játékos időhúzás miatt _frame_-et vesztett, a játékvezető ismételt időhúzás esetén, minden további esetben, mindig az aktuális _frame_-et az ellenfélnek ítéli.
+. [[Frame-loss-idohuzas, 4.3 b) Frame-vesztés időhúzás miatt]] Ha a játékos az a) pont alapján figyelmeztetést kapott, a játékvezető ismételt időhúzás esetén az aktuális _frame_-et az ellenfélnek ítéli.
+. [[Repeated-frame-loss-idohuzas, 4.3 c) Ismételt frame-vesztés időhúzás miatt]] Ha a játékos időhúzás miatt _frame_-et vesztett, a játékvezető ismételt időhúzás esetén, minden további esetben, mindig az aktuális _frame_-et az ellenfélnek ítéli.
 
 === Büntetés
 [loweralpha]
